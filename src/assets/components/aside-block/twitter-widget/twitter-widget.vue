@@ -19,9 +19,9 @@
 </template>
 
 <script>
-export default {
-  name: "twitter-widget"
-};
+  export default {
+    name: 'twitter-widget',
+  };
 </script>
 
 <style lang="scss">

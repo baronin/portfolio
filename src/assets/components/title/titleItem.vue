@@ -5,9 +5,9 @@
   </div>
 </template>
 <script>
-export default {
-  name: "title-item",
-  props: ['archive']
-};
+  export default {
+    name: 'title-item',
+    props: ['archive'],
+  };
 </script>
 <style scoped></style>

@@ -100,14 +100,15 @@
 </template>
 
 <script>
-export default {
-  name: 'the-header-slider',
-};
+  export default {
+    name: 'the-header-slider',
+  };
 </script>
 
 <style lang="scss">
   @import "../../../scss/variables";
   @import "../../../scss/settings";
+
   .h2 {
     margin: 0 0 25px 0;
   }

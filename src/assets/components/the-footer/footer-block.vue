@@ -39,15 +39,15 @@
 </template>
 
 <script>
-import FlickWidget from '@/assets/components/the-footer/flick-widget/flick-widget';
-import Logo from '@/assets/components/the-header/the-header-logo/the-header-logo';
-import RecentPost from '@/assets/components/the-footer/recent-post/recent-post';
-import TwitterWidget from '@/assets/components/aside-block/twitter-widget/twitter-widget';
+  import FlickWidget from '@/assets/components/the-footer/flick-widget/flick-widget';
+  import Logo from '@/assets/components/the-header/the-header-logo/the-header-logo';
+  import RecentPost from '@/assets/components/the-footer/recent-post/recent-post';
+  import TwitterWidget from '@/assets/components/aside-block/twitter-widget/twitter-widget';
 
-export default {
-  name: 'the-footer-block',
-  components: { TwitterWidget, RecentPost, Logo, FlickWidget },
-};
+  export default {
+    name: 'the-footer-block',
+    components: {TwitterWidget, RecentPost, Logo, FlickWidget},
+  };
 </script>
 
 <style lang="scss">

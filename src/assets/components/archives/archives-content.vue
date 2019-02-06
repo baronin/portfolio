@@ -18,16 +18,17 @@
 </template>
 
 <script>
-import Lastposts from "./last-post/lastposts";
-import ArchivesMonth from "./archives-month/archives-month";
-import ArchivesCategories from "./archives-categories/archives-categories";
-export default {
-  name: "archives-content",
-  components: { ArchivesCategories, ArchivesMonth, Lastposts },
-  props: {
-    titles: Object,
-  },
-};
+  import Lastposts from './last-post/lastposts';
+  import ArchivesMonth from './archives-month/archives-month';
+  import ArchivesCategories from './archives-categories/archives-categories';
+
+  export default {
+    name: 'archives-content',
+    components: {ArchivesCategories, ArchivesMonth, Lastposts},
+    props: {
+      titles: Object,
+    },
+  };
 </script>
 
 <style lang="scss">

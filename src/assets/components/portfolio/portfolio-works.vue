@@ -73,120 +73,120 @@
 </template>
 
 <script>
-export default {
-  name: 'portfolio-works',
-  data() {
-    return {
-      portfolio: [
-        {
-          img: require('img/portfolio-image/screems girls.jpg'),
-          title: 'Ultra Premium Slider',
-          tag: [
-            'web',
-            'development',
-          ],
-        },
-        {
-          img: require('img/portfolio-image/pistol.jpg'),
-          title: 'Western Poster',
-          tag: [
-            'print',
-          ],
-        },
-        {
-          img: require('img/portfolio-image/premiumstickers.jpg'),
-          title: 'Premium Stickers',
-          tag: [
-            'print',
-            'print design',
-          ],
-        },
-        {
-          img: require('img/portfolio-image/airplane.jpg'),
-          title: 'Premium Stickers',
-          tag: [
-            'audio',
-            'motion graphics',
-          ],
-        },
-        {
-          img: require('img/portfolio-image/jungle1.jpg'),
-          title: 'Premium Stickers',
-          tag: [
-            'web',
-            'development',
-          ],
-        },
-        {
-          img: require('img/portfolio-image/childcare.jpg'),
-          title: 'Premium Stickers',
-          tag: [
-            'print',
-          ],
-        },
-        {
-          img: require('img/portfolio-image/premiumstickers.jpg'),
-          title: 'Premium Stickers',
-          tag: [
-            'print design',
-          ],
-        },
-        {
-          img: require('img/portfolio-image/airplane.jpg'),
-          title: 'Premium Stickers',
-          tag: [
-            'motion graphics',
-            'print',
-          ],
-        },
-        {
-          img: require('img/portfolio-image/screems girls.jpg'),
-          title: 'Ultra Premium Slider',
-          tag: [
-            'web',
-            'development',
-          ],
-        },
-        {
-          img: require('img/portfolio-image/pistol.jpg'),
-          title: 'Western Poster',
-          tag: [
-            'print',
-          ],
-        },
-        {
-          img: require('img/portfolio-image/premiumstickers.jpg'),
-          title: 'Premium Stickers',
-          tag: [
-            'print',
-            'print design',
-          ],
-        },
-        {
-          img: require('img/portfolio-image/airplane.jpg'),
-          title: 'Premium Stickers',
-          tag: [
-            'audio',
-            'motion graphics',
-          ],
-        },
-      ],
-      selectCategories: [
-        'All',
-      ],
-    };
-  },
-  computed: {
-    filterTag() {
-      const tags = this.selectCategories;
-
-      if (tags.indexOf('All') !== -1) {
-        return this.portfolio;
-      }
-      return this.portfolio.filter(portfolioUnit => portfolioUnit.tag.filter(portfolioTag => tags.indexOf(portfolioTag) !== -1).length > 0);
+  export default {
+    name: 'portfolio-works',
+    data() {
+      return {
+        portfolio: [
+          {
+            img: require('img/portfolio-image/screems girls.jpg'),
+            title: 'Ultra Premium Slider',
+            tag: [
+              'web',
+              'development',
+            ],
+          },
+          {
+            img: require('img/portfolio-image/pistol.jpg'),
+            title: 'Western Poster',
+            tag: [
+              'print',
+            ],
+          },
+          {
+            img: require('img/portfolio-image/premiumstickers.jpg'),
+            title: 'Premium Stickers',
+            tag: [
+              'print',
+              'print design',
+            ],
+          },
+          {
+            img: require('img/portfolio-image/airplane.jpg'),
+            title: 'Premium Stickers',
+            tag: [
+              'audio',
+              'motion graphics',
+            ],
+          },
+          {
+            img: require('img/portfolio-image/jungle1.jpg'),
+            title: 'Premium Stickers',
+            tag: [
+              'web',
+              'development',
+            ],
+          },
+          {
+            img: require('img/portfolio-image/childcare.jpg'),
+            title: 'Premium Stickers',
+            tag: [
+              'print',
+            ],
+          },
+          {
+            img: require('img/portfolio-image/premiumstickers.jpg'),
+            title: 'Premium Stickers',
+            tag: [
+              'print design',
+            ],
+          },
+          {
+            img: require('img/portfolio-image/airplane.jpg'),
+            title: 'Premium Stickers',
+            tag: [
+              'motion graphics',
+              'print',
+            ],
+          },
+          {
+            img: require('img/portfolio-image/screems girls.jpg'),
+            title: 'Ultra Premium Slider',
+            tag: [
+              'web',
+              'development',
+            ],
+          },
+          {
+            img: require('img/portfolio-image/pistol.jpg'),
+            title: 'Western Poster',
+            tag: [
+              'print',
+            ],
+          },
+          {
+            img: require('img/portfolio-image/premiumstickers.jpg'),
+            title: 'Premium Stickers',
+            tag: [
+              'print',
+              'print design',
+            ],
+          },
+          {
+            img: require('img/portfolio-image/airplane.jpg'),
+            title: 'Premium Stickers',
+            tag: [
+              'audio',
+              'motion graphics',
+            ],
+          },
+        ],
+        selectCategories: [
+          'All',
+        ],
+      };
     },
-  },
-};
+    computed: {
+      filterTag() {
+        const tags = this.selectCategories;
+
+        if (tags.indexOf('All') !== -1) {
+          return this.portfolio;
+        }
+        return this.portfolio.filter(portfolioUnit => portfolioUnit.tag.filter(portfolioTag => tags.indexOf(portfolioTag) !== -1).length > 0);
+      },
+    },
+  };
 </script>
 
 <style lang="scss">

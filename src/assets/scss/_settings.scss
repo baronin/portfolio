@@ -28,120 +28,131 @@ a {
 .white {
   color: $white;
 }
+
 .inherit {
   color: inherit;
 }
 
 //  line bottom
 .line-bottom::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    background: url("~img/line.png") repeat no-repeat;
-    height: 6px;
-    width: 100%;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background: url("~img/line.png") repeat no-repeat;
+  height: 6px;
+  width: 100%;
 }
 
 // btn settings
 .btn-reset {
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 // btn slide
 .btn-slide {
-    width: 25px;
-    height: 5px;
-    margin-right: 6px;
-    background-color: $colorWidget;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    &:last-child {
-        margin-right: 0;
-    }
+  width: 25px;
+  height: 5px;
+  margin-right: 6px;
+  background-color: $colorWidget;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 //btn read
 .btn-read {
-    border: none;
-    background: none;
-    padding: 0;
-    cursor: pointer;
-    font-weight: bold;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 // btn form
 .btn-form {
-    display: inline-block;
-    width: 90px;
-    color: $white;
-    font-weight: 500;
-    padding: 10px 25px;
-    background: linear-gradient(#c1c1c1,#888888);
+  display: inline-block;
+  width: 90px;
+  color: $white;
+  font-weight: 500;
+  padding: 10px 25px;
+  background: linear-gradient(#c1c1c1, #888888);
 }
 
 .the-btn {
-    padding: 10px 15px;
-    color: $white;
-    font-weight: 500;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
+  padding: 10px 15px;
+  color: $white;
+  font-weight: 500;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 // bg colors btn
-.btn-green  {
-    background: $btnGreen;
+.btn-green {
+  background: $btnGreen;
 }
-.btn-gray  {
-    background:  $btnGray;
+
+.btn-gray {
+  background: $btnGray;
 }
-.btn-blue  {
-    background:  $btnBlue;
+
+.btn-blue {
+  background: $btnBlue;
 }
-.btn-orange  {
-    background:  $btnOrange;
- }
-.btn-pink  {
-    background:  $btnPink;
+
+.btn-orange {
+  background: $btnOrange;
 }
-.btn-red  {
-    background:  $btnRed;
+
+.btn-pink {
+  background: $btnPink;
 }
-.btn-lightblue  {
-    background:  $btnLightblue;
+
+.btn-red {
+  background: $btnRed;
+}
+
+.btn-lightblue {
+  background: $btnLightblue;
 }
 
 // alert background and border color
 .block-alert-item {
-    width: 100%;
-    padding: 26px;
-    margin: 26px 0;
-    font-size: 14px;
-    font-style: italic;
-    text-align: center;
-    border: 1px;
-    border-style: solid;
+  width: 100%;
+  padding: 26px;
+  margin: 26px 0;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  border: 1px;
+  border-style: solid;
 }
+
 .alert-green {
-    color: $alertGreenBrd;
-    background: $alertGreen;
-    border-color: $alertGreenBrd;
+  color: $alertGreenBrd;
+  background: $alertGreen;
+  border-color: $alertGreenBrd;
 }
+
 .alert-red {
-    color: $alertRedBrd;
-    background: $alertRed;
-    border-color: $alertRedBrd;
+  color: $alertRedBrd;
+  background: $alertRed;
+  border-color: $alertRedBrd;
 }
+
 .alert-orange {
-    color: $alertOrangeBrd;
-    background: $alertOrange;
-    border-color: $alertOrangeBrd;
+  color: $alertOrangeBrd;
+  background: $alertOrange;
+  border-color: $alertOrangeBrd;
 }
+
 .alert-blue {
-    color: $alertBlueBrd;
-    background: $alertBlue;
-    border-color: $alertBlueBrd;
+  color: $alertBlueBrd;
+  background: $alertBlue;
+  border-color: $alertBlueBrd;
 }

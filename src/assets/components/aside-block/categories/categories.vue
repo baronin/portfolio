@@ -11,23 +11,23 @@
   </div>
 </template>
 <script>
-export default {
-  name: "categories",
-  data() {
-    return {
-      categories: {
-        titles: "Categories",
-        item: [
-          "Video",
-          "Sports",
-          "Media",
-          "Entertainment",
-          "Life",
-          "Super Cool Stuff"
-        ],
-      },
-    };
-  },
-};
+  export default {
+    name: 'categories',
+    data() {
+      return {
+        categories: {
+          titles: 'Categories',
+          item: [
+            'Video',
+            'Sports',
+            'Media',
+            'Entertainment',
+            'Life',
+            'Super Cool Stuff',
+          ],
+        },
+      };
+    },
+  };
 </script>
 <style scoped></style>

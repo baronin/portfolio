@@ -5,13 +5,14 @@
 </template>
 
 <script>
-export default {
-  name: 'search',
-};
+  export default {
+    name: 'search',
+  };
 </script>
 
 <style lang="scss">
   @import "../../../scss/variables";
+
   .search {
     position: relative;
     width: 150px;

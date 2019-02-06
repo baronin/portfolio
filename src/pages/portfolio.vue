@@ -14,13 +14,14 @@
 </template>
 
 <script>
-import MainHeader from '../assets/components/the-header/the-header';
-import FooterBlock from '../assets/components/the-footer/footer-block';
-import BlockMyWorks from '../assets/components/portfolio/portfolio-works';
-export default {
-  name: 'Portfolio',
-  components: { BlockMyWorks, FooterBlock, MainHeader },
-};
+  import MainHeader from '../assets/components/the-header/the-header';
+  import FooterBlock from '../assets/components/the-footer/footer-block';
+  import BlockMyWorks from '../assets/components/portfolio/portfolio-works';
+
+  export default {
+    name: 'Portfolio',
+    components: {BlockMyWorks, FooterBlock, MainHeader},
+  };
 </script>
 <style lang="scss">
   .content-portfolio {

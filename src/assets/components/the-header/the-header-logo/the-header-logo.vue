@@ -5,9 +5,9 @@
 </template>
 
 <script>
-export default {
-  name: 'the-header-logo',
-};
+  export default {
+    name: 'the-header-logo',
+  };
 </script>
 
 <style lang="scss">

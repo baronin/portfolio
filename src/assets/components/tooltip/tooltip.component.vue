@@ -10,13 +10,13 @@
 </template>
 
 <script>
-import './tooltip.component.scss';
-import openCloseMixin from '../../mixins/open-close.mixin';
+  import './tooltip.component.scss';
+  import openCloseMixin from '../../mixins/open-close.mixin';
 
-export default {
-  name: "tooltip",
-  mixins: [openCloseMixin],
-};
+  export default {
+    name: 'tooltip',
+    mixins: [openCloseMixin],
+  };
 </script>
 
 <style lang="scss">

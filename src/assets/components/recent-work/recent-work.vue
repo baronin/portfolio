@@ -133,14 +133,15 @@
 </template>
 
 <script>
-export default {
-  name: 'recent-work',
-};
+  export default {
+    name: 'recent-work',
+  };
 </script>
 
-<style lang="scss" >
+<style lang="scss">
   @import "../../scss/variables";
   @import "../../scss/settings";
+
   .recent-work {
     position: relative;
     margin-top: 350px;

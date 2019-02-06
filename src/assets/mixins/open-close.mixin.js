@@ -1,17 +1,17 @@
 const openCloseMixin = {
-  data: function () {
+  data: function() {
     return {
-      isVisible: false
-    }
+      isVisible: false,
+    };
   },
   methods: {
-    open: function () {
+    open: function() {
       this.isVisible = true;
     },
-    close: function () {
+    close: function() {
       this.isVisible = false;
-    }
-  }
+    },
+  },
 };
 
 export default openCloseMixin;

@@ -16,13 +16,14 @@
 </template>
 
 <script>
-export default {
-  name: 'flick-widget',
-};
+  export default {
+    name: 'flick-widget',
+  };
 </script>
 
 <style lang="scss">
   @import "../../../scss/variables";
+
   .flicks-block {
     justify-content: space-between;
 
