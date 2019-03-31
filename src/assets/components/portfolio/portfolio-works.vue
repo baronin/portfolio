@@ -56,14 +56,15 @@
           </div>
         </div>
         <div class="block-title">
-          <h3 class="title-h3">{{portfolio.title}}</h3>
+          <h3 class="title-h3"> {{ portfolio.title }} </h3>
           <div class="tag flex">
             <img src="../../../assets/img/tagicon.png" alt="tag icon" class="icon-tag">
             <a href="#" class="tag-link"
-               v-for="( tagUnit, tagIndex ) in portfolio.tag" :key="tagIndex">
-              {{tagUnit}}
+               v-for="( tagUnit, index ) in portfolio.tag"
+               :key="index">
+              {{ tagUnit }}
             </a>
-          </div>
+          </div>np
         </div>
       </div>
     </div>
@@ -153,7 +154,7 @@ export default {
           ],
         },
         {
-          img: require(img/portfolio-image/premiumstickers.jpg),
+          img: require('img/portfolio-image/premiumstickers.jpg'),
           title: 'Premium Stickers',
           tag: [
             'print',
@@ -181,7 +182,9 @@ export default {
       if (tags.indexOf('All') !== -1) {
         return this.portfolio;
       }
-      return this.portfolio.filter(portfolioUnit => portfolioUnit.tag.filter(portfolioTag => tags.indexOf(portfolioTag) !== -1).length > 0);
+      return this.portfolio.filter(portfolioUnit => portfolioUnit.tag
+        .filter(portfolioTag => tags.indexOf(portfolioTag) !== -1)
+        .length > 0);
     },
   },
 };
