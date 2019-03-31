@@ -1,14 +1,14 @@
 const openCloseMixin = {
-  data: function() {
+  data() {
     return {
       isVisible: false,
     };
   },
   methods: {
-    open: function() {
+    open() {
       this.isVisible = true;
     },
-    close: function() {
+    close() {
       this.isVisible = false;
     },
   },

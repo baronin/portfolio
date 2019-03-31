@@ -22,39 +22,39 @@
 </template>
 
 <script>
-  export default {
-    name: 'navigation',
-    data: function() {
-      return {
-        nav: [
-          {
-            link: 'home',
-            href: 'home.html',
-          },
-          {
-            link: 'about',
-            href: 'about.html',
-          },
-          {
-            link: 'portfolio',
-            href: 'portfolio.html',
-          },
-          {
-            link: 'blog',
-            href: 'blog.html',
-          },
-          {
-            link: 'archives',
-            href: 'archives.html',
-          },
-          {
-            link: 'contact',
-            href: 'contact.html',
-          },
-        ],
-      };
-    },
-  };
+export default {
+  name: 'navigation',
+  data() {
+    return {
+      nav: [
+        {
+          link: 'home',
+          href: 'home.html',
+        },
+        {
+          link: 'about',
+          href: 'about.html',
+        },
+        {
+          link: 'portfolio',
+          href: 'portfolio.html',
+        },
+        {
+          link: 'blog',
+          href: 'blog.html',
+        },
+        {
+          link: 'archives',
+          href: 'archives.html',
+        },
+        {
+          link: 'contact',
+          href: 'contact.html',
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="scss">

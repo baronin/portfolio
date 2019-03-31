@@ -18,18 +18,13 @@
 </template>
 
 <script>
-  import TwitterWidget from './twitter-widget/twitter-widget';
-  import Categories from './categories/categories';
+import TwitterWidget from './twitter-widget/twitter-widget';
+import Categories from './categories/categories';
 
-  export default {
-    name: 'aside-block',
-    components: {Categories, TwitterWidget},
-    methods: {
-      show: function(el) {
-        console.log(el);
-      },
-    },
-  };
+export default {
+  name: 'aside-block',
+  components: { Categories, TwitterWidget },
+};
 </script>
 
 <style lang="scss">

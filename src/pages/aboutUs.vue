@@ -122,14 +122,14 @@
 </template>
 
 <script>
-  import MainHeader from '../assets/components/the-header/the-header';
-  import FooterBlock from '../assets/components/the-footer/footer-block';
-  import AsideBlock from '../assets/components/aside-block/aside-block';
+import MainHeader from '../assets/components/the-header/the-header';
+import FooterBlock from '../assets/components/the-footer/footer-block';
+import AsideBlock from '../assets/components/aside-block/aside-block';
 
-  export default {
-    name: 'AboutUs',
-    components: {AsideBlock, FooterBlock, MainHeader},
-  };
+export default {
+  name: 'AboutUs',
+  components: { AsideBlock, FooterBlock, MainHeader },
+};
 </script>
 
 <style lang="scss">

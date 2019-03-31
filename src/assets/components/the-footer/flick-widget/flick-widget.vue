@@ -3,22 +3,30 @@
     <h2 class="h2">Flickr Widget</h2>
     <hr>
     <div class="flicks-block flex">
-      <a href="#" class="flick-link"><img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
-      <a href="#" class="flick-link"><img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
-      <a href="#" class="flick-link"><img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
-      <a href="#" class="flick-link"><img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
-      <a href="#" class="flick-link"><img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
-      <a href="#" class="flick-link"><img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
-      <a href="#" class="flick-link"><img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
-      <a href="#" class="flick-link"><img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
+      <a href="#" class="flick-link">
+        <img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
+      <a href="#" class="flick-link">
+        <img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
+      <a href="#" class="flick-link">
+        <img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
+      <a href="#" class="flick-link">
+        <img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
+      <a href="#" class="flick-link">
+        <img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
+      <a href="#" class="flick-link">
+        <img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
+      <a href="#" class="flick-link">
+        <img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
+      <a href="#" class="flick-link">
+        <img src="../../../img/flickimg.png" alt="flick" class="flick-img"></a>
     </div>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'flick-widget',
-  };
+export default {
+  name: 'flick-widget',
+};
 </script>
 
 <style lang="scss">

@@ -11,14 +11,14 @@
 </template>
 
 <script>
-  import logo from './the-header-logo/the-header-logo';
-  import navigation from './the-header-navigation/the-header-navigation';
-  import search from './the-header-search/the-header-search';
+import logo from './the-header-logo/the-header-logo';
+import navigation from './the-header-navigation/the-header-navigation';
+import search from './the-header-search/the-header-search';
 
-  export default {
-    name: 'the-main-header',
-    components: {logo, search, navigation},
-  };
+export default {
+  name: 'the-main-header',
+  components: { logo, search, navigation },
+};
 </script>
 
 <style lang="scss">

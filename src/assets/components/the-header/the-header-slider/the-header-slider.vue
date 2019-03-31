@@ -100,9 +100,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'the-header-slider',
-  };
+export default {
+  name: 'the-header-slider',
+};
 </script>
 
 <style lang="scss">

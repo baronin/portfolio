@@ -37,15 +37,13 @@
     </nav>
 
     <div class="flex content-portfolio">
-      <!--<li v-for="portfolio in filterTag"> {{portfolio.title}}</li>-->
-
-      <div class="block-my-works" v-for="(portfolio, index) in filterTag" :key="index">
+      <div class="block-my-works"
+           v-for="(portfolio, index) in filterTag"
+           :key="index">
         <div class="block-image">
           <img
             :src="portfolio.img"
             class="portfolio-img">
-          <!--<li v-for="portfolio in filterTag"> {{portfolio.title}}</li>-->
-
           <div class="block-image-hover">
             <footer class="the-footer flex">
               <span class="view">201 <br/>views</span>
@@ -56,7 +54,7 @@
               <input type="text" class="search" placeholder="">
             </form>
           </div>
-        </div> <!-- /block-image -->
+        </div>
         <div class="block-title">
           <h3 class="title-h3">{{portfolio.title}}</h3>
           <div class="tag flex">
@@ -73,120 +71,120 @@
 </template>
 
 <script>
-  export default {
-    name: 'portfolio-works',
-    data() {
-      return {
-        portfolio: [
-          {
-            img: require('img/portfolio-image/screems girls.jpg'),
-            title: 'Ultra Premium Slider',
-            tag: [
-              'web',
-              'development',
-            ],
-          },
-          {
-            img: require('img/portfolio-image/pistol.jpg'),
-            title: 'Western Poster',
-            tag: [
-              'print',
-            ],
-          },
-          {
-            img: require('img/portfolio-image/premiumstickers.jpg'),
-            title: 'Premium Stickers',
-            tag: [
-              'print',
-              'print design',
-            ],
-          },
-          {
-            img: require('img/portfolio-image/airplane.jpg'),
-            title: 'Premium Stickers',
-            tag: [
-              'audio',
-              'motion graphics',
-            ],
-          },
-          {
-            img: require('img/portfolio-image/jungle1.jpg'),
-            title: 'Premium Stickers',
-            tag: [
-              'web',
-              'development',
-            ],
-          },
-          {
-            img: require('img/portfolio-image/childcare.jpg'),
-            title: 'Premium Stickers',
-            tag: [
-              'print',
-            ],
-          },
-          {
-            img: require('img/portfolio-image/premiumstickers.jpg'),
-            title: 'Premium Stickers',
-            tag: [
-              'print design',
-            ],
-          },
-          {
-            img: require('img/portfolio-image/airplane.jpg'),
-            title: 'Premium Stickers',
-            tag: [
-              'motion graphics',
-              'print',
-            ],
-          },
-          {
-            img: require('img/portfolio-image/screems girls.jpg'),
-            title: 'Ultra Premium Slider',
-            tag: [
-              'web',
-              'development',
-            ],
-          },
-          {
-            img: require('img/portfolio-image/pistol.jpg'),
-            title: 'Western Poster',
-            tag: [
-              'print',
-            ],
-          },
-          {
-            img: require('img/portfolio-image/premiumstickers.jpg'),
-            title: 'Premium Stickers',
-            tag: [
-              'print',
-              'print design',
-            ],
-          },
-          {
-            img: require('img/portfolio-image/airplane.jpg'),
-            title: 'Premium Stickers',
-            tag: [
-              'audio',
-              'motion graphics',
-            ],
-          },
-        ],
-        selectCategories: [
-          'All',
-        ],
-      };
-    },
-    computed: {
-      filterTag() {
-        const tags = this.selectCategories;
+export default {
+  name: 'portfolio-works',
+  data() {
+    return {
+      portfolio: [
+        {
+          img: require('img/portfolio-image/screemsgirls.jpg'),
+          title: 'Ultra Premium Slider',
+          tag: [
+            'web',
+            'development',
+          ],
+        },
+        {
+          img: ('img/portfolio-image/pistol.jpg'),
+          title: 'Western Poster',
+          tag: [
+            'print',
+          ],
+        },
+        {
+          img: require('img/portfolio-image/premiumstickers.jpg'),
+          title: 'Premium Stickers',
+          tag: [
+            'print',
+            'print design',
+          ],
+        },
+        {
+          img: require('img/portfolio-image/airplane.jpg'),
+          title: 'Premium Stickers',
+          tag: [
+            'audio',
+            'motion graphics',
+          ],
+        },
+        {
+          img: require('img/portfolio-image/jungle1.jpg'),
+          title: 'Premium Stickers',
+          tag: [
+            'web',
+            'development',
+          ],
+        },
+        {
+          img: require('img/portfolio-image/childcare.jpg'),
+          title: 'Premium Stickers',
+          tag: [
+            'print',
+          ],
+        },
+        {
+          img: require('img/portfolio-image/premiumstickers.jpg'),
+          title: 'Premium Stickers',
+          tag: [
+            'print design',
+          ],
+        },
+        {
+          img: require('img/portfolio-image/airplane.jpg'),
+          title: 'Premium Stickers',
+          tag: [
+            'motion graphics',
+            'print',
+          ],
+        },
+        {
+          img: require('img/portfolio-image/screemsgirls.jpg'),
+          title: 'Ultra Premium Slider',
+          tag: [
+            'web',
+            'development',
+          ],
+        },
+        {
+          img: require('img/portfolio-image/pistol.jpg'),
+          title: 'Western Poster',
+          tag: [
+            'print',
+          ],
+        },
+        {
+          img: require(img/portfolio-image/premiumstickers.jpg),
+          title: 'Premium Stickers',
+          tag: [
+            'print',
+            'print design',
+          ],
+        },
+        {
+          img: require('img/portfolio-image/airplane.jpg'),
+          title: 'Premium Stickers',
+          tag: [
+            'audio',
+            'motion graphics',
+          ],
+        },
+      ],
+      selectCategories: [
+        'All',
+      ],
+    };
+  },
+  computed: {
+    filterTag() {
+      const tags = this.selectCategories;
 
-        if (tags.indexOf('All') !== -1) {
-          return this.portfolio;
-        }
-        return this.portfolio.filter(portfolioUnit => portfolioUnit.tag.filter(portfolioTag => tags.indexOf(portfolioTag) !== -1).length > 0);
-      },
+      if (tags.indexOf('All') !== -1) {
+        return this.portfolio;
+      }
+      return this.portfolio.filter(portfolioUnit => portfolioUnit.tag.filter(portfolioTag => tags.indexOf(portfolioTag) !== -1).length > 0);
     },
-  };
+  },
+};
 </script>
 
 <style lang="scss">
@@ -252,7 +250,7 @@
           border-radius: 4px;
           border: none;
           cursor: pointer;
-          background-image: url("~/../img/serchportfolio.png");
+          background-image: url(../../img/search.png);
           background-position: 50% 50%;
           background-repeat: no-repeat;
         }

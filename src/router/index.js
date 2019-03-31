@@ -1,10 +1,10 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from '@/pages/Home';
-import Archives from '@/pages/Archives';
-import Contacts from '@/pages/Contacts';
-import Portfolio from '@/pages/Portfolio';
-import AboutUs from '@/pages/AboutUs';
+import Home from '../pages/Home';
+import Archives from '../pages/Archives';
+import Contacts from '../pages/Contacts';
+import Portfolio from '../pages/Portfolio';
+import AboutUs from '../pages/AboutUs';
 
 Vue.use(Router);
 

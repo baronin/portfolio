@@ -1,7 +1,5 @@
 <template>
   <div class="recent-work">
-
-
     <h2 class="h3 line-bottom">Recent Work</h2>
 
     <div class="recent-block flex">
@@ -31,7 +29,8 @@
 
           <div class="block-my-works">
             <div class="block-image">
-              <img src="../../../assets/img/portfolio-image/screems girls.jpg" alt="screems girls" class="portfolio-img">
+              <img src="../../img/portfolio-image/screemsgirls.jpg"
+                   alt="screems girls" class="portfolio-img">
               <div class="block-image-hover">
                 <footer class="the-footer flex">
                   <span class="view">201 <br/>views</span>
@@ -47,7 +46,8 @@
 
           <div class="block-my-works">
             <div class="block-image">
-              <img src="../../../assets/img/portfolio-image/pistol.jpg" alt="pistol" class="portfolio-img">
+              <img src="../../../assets/img/portfolio-image/pistol.jpg"
+                   alt="pistol" class="portfolio-img">
               <div class="block-image-hover">
                 <footer class="the-footer flex">
                   <span class="view">201 <br/>views</span>
@@ -63,7 +63,8 @@
 
           <div class="block-my-works">
             <div class="block-image">
-              <img src="../../../assets/img/portfolio-image/premiumstickers.jpg" alt="screems girls" class="portfolio-img">
+              <img src="../../../assets/img/portfolio-image/premiumstickers.jpg"
+                   alt="screems girls" class="portfolio-img">
               <div class="block-image-hover">
                 <footer class="the-footer flex">
                   <span class="view">201 <br/>views</span>
@@ -79,7 +80,8 @@
 
           <div class="block-my-works">
             <div class="block-image">
-              <img src="../../../assets/img/portfolio-image/airplane.jpg" alt="screems girls" class="portfolio-img">
+              <img src="../../../assets/img/portfolio-image/airplane.jpg"
+                   alt="screems girls" class="portfolio-img">
               <div class="block-image-hover">
                 <footer class="the-footer flex">
                   <span class="view">201 <br/>views</span>
@@ -95,7 +97,8 @@
 
           <div class="block-my-works">
             <div class="block-image">
-              <img src="../../../assets/img/portfolio-image/jungle1.jpg" alt="screems girls" class="portfolio-img">
+              <img src="../../../assets/img/portfolio-image/jungle1.jpg"
+                   alt="screems girls" class="portfolio-img">
               <div class="block-image-hover">
                 <footer class="the-footer flex">
                   <span class="view"> 201 <br/>views </span>
@@ -111,7 +114,8 @@
 
           <div class="block-my-works">
             <div class="block-image">
-              <img src="../../../assets/img/portfolio-image/childcare.jpg" alt="childcare" class="portfolio-img">
+              <img src="../../../assets/img/portfolio-image/childcare.jpg"
+                   alt="childcare" class="portfolio-img">
               <div class="block-image-hover">
                 <footer class="the-footer flex">
                   <span class="view"> 201 <br/>views </span>
@@ -133,9 +137,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'recent-work',
-  };
+export default {
+  name: 'recent-work',
+};
 </script>
 
 <style lang="scss">

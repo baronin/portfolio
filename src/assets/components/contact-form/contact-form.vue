@@ -4,16 +4,17 @@
       <input class="form-input" type="text" name="" id="FirstName" placeholder="First Name">
       <input class="form-input" type="text" name="" id="LastName" placeholder="Last Name">
       <input class="form-input" type="email" name="Email" id="Mail" placeholder="Email Address">
-      <textarea class="form-input width" name="" id="textarea" cols="10" rows="10" placeholder="Message"></textarea>
+      <textarea class="form-input width"
+                name="" id="textarea" cols="10" rows="10" placeholder="Message"></textarea>
       <button class="btn-reset btn-form">Send</button>
     </form>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'contact-form',
-  };
+export default {
+  name: 'contact-form',
+};
 </script>
 
 <style lang="scss">

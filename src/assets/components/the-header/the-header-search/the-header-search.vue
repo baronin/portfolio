@@ -5,9 +5,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'search',
-  };
+export default {
+  name: 'search',
+};
 </script>
 
 <style lang="scss">
