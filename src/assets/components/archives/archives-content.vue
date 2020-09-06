@@ -18,25 +18,25 @@
 </template>
 
 <script>
-  import Lastposts from './last-post/lastposts';
-  import ArchivesMonth from './archives-month/archives-month';
-  import ArchivesCategories from './archives-categories/archives-categories';
+import Lastposts from './last-post/lastposts';
+import ArchivesMonth from './archives-month/archives-month';
+import ArchivesCategories from './archives-categories/archives-categories';
 
-  export default {
-    name: 'archives-content',
-    components: {ArchivesCategories, ArchivesMonth, Lastposts},
-    props: {
-      titles: Object,
-    },
-  };
+export default {
+  name: 'archives-content',
+  components: { ArchivesCategories, ArchivesMonth, Lastposts },
+  props: {
+    titles: Object,
+  },
+};
 </script>
 
 <style lang="scss">
-  .archives {
-    justify-content: space-between;
+.archives {
+  justify-content: space-between;
 
-    .archives-block {
-      margin-bottom: 40px;
-    }
+  .archives-block {
+    margin-bottom: 40px;
   }
+}
 </style>

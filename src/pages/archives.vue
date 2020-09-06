@@ -14,17 +14,15 @@
 </template>
 
 <script>
-  import MainHeader from '../assets/components/the-header/the-header';
-  import FooterBlock from '../assets/components/the-footer/footer-block';
-  import ArchivesContent from '../assets/components/archives/archives-content';
-  import AsideBlock from '../assets/components/aside-block/aside-block';
+import MainHeader from '../assets/components/the-header/the-header';
+import FooterBlock from '../assets/components/the-footer/footer-block';
+import ArchivesContent from '../assets/components/archives/archives-content';
+import AsideBlock from '../assets/components/aside-block/aside-block';
 
-  export default {
-    name: 'Archives',
-    components: {AsideBlock, ArchivesContent, FooterBlock, MainHeader},
-  };
+export default {
+  name: 'Archives',
+  components: { AsideBlock, ArchivesContent, FooterBlock, MainHeader },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

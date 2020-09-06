@@ -11,19 +11,17 @@
 <script></script>
 
 <style lang="scss">
-  @import "../../scss/variables";
+@import '../../scss/variables';
 
-  .main {
-    .container {
-      padding-top: 40px;
-      padding-bottom: 40px;
-      justify-content: space-between;
-    }
-
-    .content {
-      max-width: 670px;
-    }
+.main {
+  .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between;
   }
 
+  .content {
+    max-width: 670px;
+  }
+}
 </style>
-

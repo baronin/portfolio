@@ -4,7 +4,7 @@ const webpack = require('webpack');
  * `..` Since this config file is in the config folder so we need
  * to resolve path in the top level folder.
  */
-const resolve = relativePath => path.resolve(__dirname, '..', relativePath);
+const resolve = (relativePath) => path.resolve(__dirname, '..', relativePath);
 
 module.exports = {
   mode: 'development',
@@ -29,12 +29,12 @@ module.exports = {
           loaders: {
             // https://vue-loader.vuejs.org/guide/scoped-css.html#mixing-local-and-global-styles
             css: [
-              'vue-style-loader', {
+              'vue-style-loader',
+              {
                 loader: 'css-loader',
-              }],
-            js: [
-              'babel-loader',
+              },
             ],
+            js: ['babel-loader'],
           },
           cacheBusting: true,
         },
@@ -50,13 +50,8 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        use: [
-          'vue-style-loader',
-          'css-loader',
-          'sass-loader',
-        ],
+        use: ['vue-style-loader', 'css-loader', 'sass-loader'],
       },
-
     ],
   },
   /**
@@ -95,7 +90,7 @@ module.exports = {
      * without pre-compiling them
      */
     alias: {
-      'vue$': 'vue/dist/vue.esm.js',
+      vue$: 'vue/dist/vue.esm.js',
       '@': resolve('src'),
       styles: resolve('src/assets/scss'),
     },

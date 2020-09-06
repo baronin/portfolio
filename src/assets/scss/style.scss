@@ -1,5 +1,5 @@
-@import "settings";
-@import "variables";
+@import 'settings';
+@import 'variables';
 
 .flex {
   display: flex;
@@ -67,10 +67,10 @@
     padding-bottom: 40px;
     justify-content: space-between;
   }
-  
+
   .content {
     max-width: 670px;
-    
+
     .right-block {
       width: 240px;
     }

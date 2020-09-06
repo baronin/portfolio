@@ -19,36 +19,36 @@
 </template>
 
 <script>
-  export default {
-    name: 'twitter-widget',
-  };
+export default {
+  name: 'twitter-widget',
+};
 </script>
 
 <style lang="scss">
-  @import "../../../scss/variables";
+@import '../../../scss/variables';
 
-  .twitter-comments {
-    margin: 20px 0;
+.twitter-comments {
+  margin: 20px 0;
 
-    .paragraph {
-      margin: 0;
-    }
+  .paragraph {
+    margin: 0;
   }
+}
 
-  .twitter-link {
-    color: $colorWidget;
-    font-weight: 200;
-  }
+.twitter-link {
+  color: $colorWidget;
+  font-weight: 200;
+}
 
-  .ago {
-    display: block;
-    margin-top: 8px;
-    color: $colorWidget;
-  }
+.ago {
+  display: block;
+  margin-top: 8px;
+  color: $colorWidget;
+}
 
-  .footer {
-    .paragraph {
-      color: #fff;
-    }
+.footer {
+  .paragraph {
+    color: #fff;
   }
+}
 </style>

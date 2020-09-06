@@ -1,5 +1,5 @@
 <template>
-  <header class="header" :class="{'header_border': $route.meta.headerBorder}">
+  <header class="header" :class="{ header_border: $route.meta.headerBorder }">
     <div class="container flex">
       <logo></logo>
       <div class="top-right flex">
@@ -11,30 +11,30 @@
 </template>
 
 <script>
-  import logo from './the-header-logo/the-header-logo';
-  import navigation from './the-header-navigation/the-header-navigation';
-  import search from './the-header-search/the-header-search';
+import logo from './the-header-logo/the-header-logo';
+import navigation from './the-header-navigation/the-header-navigation';
+import search from './the-header-search/the-header-search';
 
-  export default {
-    name: 'the-main-header',
-    components: {logo, search, navigation},
-  };
+export default {
+  name: 'the-main-header',
+  components: { logo, search, navigation },
+};
 </script>
 
 <style lang="scss">
-  @import "../../scss/variables";
+@import '../../scss/variables';
 
-  .header {
-    padding: 20px 0;
-    background: url("../../../assets/img/bg-header.jpg");
+.header {
+  padding: 20px 0;
+  background: url('../../../assets/img/bg-header.jpg');
 
-    &_border {
-      border-bottom: $brdc;
-    }
-
-    .container {
-      justify-content: space-between;
-      align-items: center;
-    }
+  &_border {
+    border-bottom: $brdc;
   }
+
+  .container {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 </style>

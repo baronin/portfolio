@@ -10,11 +10,9 @@ module.exports = {
   },
   // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
   // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
-  extends: ['plugin:vue/essential', 'airbnb-base'],
+  extends: ['plugin:vue/essential', 'airbnb-base', 'prettier'],
   // required to lint *.vue files
-  plugins: [
-    'vue',
-  ],
+  plugins: ['vue', 'prettier'],
   // check if imports actually resolve
   settings: {
     'import/resolver': {
@@ -25,28 +23,38 @@ module.exports = {
   },
   // add your custom rules here
   rules: {
+    'prettier/prettier': 'error',
+    'no-unsed-vars': 'warn',
+    'no-console': 'warn',
     // don't require .vue extension when importing
     'import/extensions': [
-      'error', 'always', {
+      'error',
+      'always',
+      {
         js: 'never',
         vue: 'never',
-      }],
+      },
+    ],
     // disallow reassignment of function parameters
     // disallow parameter object manipulation except for specific exclusions
     'no-param-reassign': [
-      'error', {
+      'error',
+      {
         props: true,
         ignorePropertyModificationsFor: [
           'state', // for vuex state
           'acc', // for reduce accumulators
           'e', // for e.returnvalue
         ],
-      }],
+      },
+    ],
     // allow optionalDependencies
     'import/no-extraneous-dependencies': [
-      'error', {
+      'error',
+      {
         optionalDependencies: ['test/unit/index.js'],
-      }],
+      },
+    ],
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
   },

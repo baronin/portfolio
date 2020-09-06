@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 * {
   box-sizing: border-box;
@@ -35,10 +35,10 @@ a {
 
 //  line bottom
 .line-bottom::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
-  background: url("~img/line.png") repeat no-repeat;
+  background: url('~img/line.png') repeat no-repeat;
   height: 6px;
   width: 100%;
 }

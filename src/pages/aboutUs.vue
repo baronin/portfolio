@@ -12,7 +12,11 @@
             mauris. Maecenas in magna mollis lectus lacinia mollis.
           </p>
           <p class="paragraph">
-            <img src="../assets/img/personmike.jpg" alt="Mackael" class="img-person"/>
+            <img
+              src="../assets/img/personmike.jpg"
+              alt="Mackael"
+              class="img-person"
+            />
             Maecenas ipsum metus, semper hendrerit varius mattis, hasr congue
             sit amet tellus. Aliquam ullamcorper dui sed magna posuere ut elem
             entum enim rutrum. Nam mi erat, porta idso ultrices nec, pellentesq
@@ -82,7 +86,8 @@
               blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum
               at vulputate sit amet, tincidunt volutpat lorem.
             </p>
-          </div><!-- /two-column -->
+          </div>
+          <!-- /two-column -->
           <div class="three-column">
             <p class="paragraph">
               Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,
@@ -99,7 +104,8 @@
               id tristique risus ante at est. Sed pretium metus sit amet erat
               blandit vitae pulvinar lorem egestas.
             </p>
-          </div><!-- /three-column -->
+          </div>
+          <!-- /three-column -->
           <button class="the-btn btn-green">Button Text</button>
           <button class="the-btn btn-gray">Button Text</button>
           <button class="the-btn btn-blue">Button Text</button>
@@ -113,67 +119,71 @@
             <div class="block-alert-item alert-orange">Alert Text</div>
             <div class="block-alert-item alert-blue">Alert Text</div>
           </div>
-        </main><!-- /main .content -->
-        <AsideBlock></AsideBlock><!-- AsideBlock -->
-      </div><!-- /container -->
-    </main><!-- /main -->
+        </main>
+        <!-- /main .content -->
+        <AsideBlock></AsideBlock
+        ><!-- AsideBlock -->
+      </div>
+      <!-- /container -->
+    </main>
+    <!-- /main -->
     <footer-block></footer-block>
   </div>
 </template>
 
 <script>
-  import MainHeader from '../assets/components/the-header/the-header';
-  import FooterBlock from '../assets/components/the-footer/footer-block';
-  import AsideBlock from '../assets/components/aside-block/aside-block';
+import MainHeader from '../assets/components/the-header/the-header';
+import FooterBlock from '../assets/components/the-footer/footer-block';
+import AsideBlock from '../assets/components/aside-block/aside-block';
 
-  export default {
-    name: 'AboutUs',
-    components: {AsideBlock, FooterBlock, MainHeader},
-  };
+export default {
+  name: 'AboutUs',
+  components: { AsideBlock, FooterBlock, MainHeader },
+};
 </script>
 
 <style lang="scss">
-  @import "../assets/scss/settings";
-  @import "../assets/scss/variables";
+@import '../assets/scss/settings';
+@import '../assets/scss/variables';
 
-  .big-letter {
-    float: left;
-    font-size: $bgSize;
-    color: $colorFooterLink;
-    margin: 0 5px 10px 0;
-  }
+.big-letter {
+  float: left;
+  font-size: $bgSize;
+  color: $colorFooterLink;
+  margin: 0 5px 10px 0;
+}
 
-  .img-person {
-    position: relative;
-    display: block;
-    float: left;
-    margin-right: 22px;
-    border: 1px solid $brflick;
-    padding: 2px;
-    &:before {
-      position: absolute;
-      content: '';
-      top: 0;
-      left: 0;
-      background-image: url("../assets/img/personRibbonHover.png");
-    }
+.img-person {
+  position: relative;
+  display: block;
+  float: left;
+  margin-right: 22px;
+  border: 1px solid $brflick;
+  padding: 2px;
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background-image: url('../assets/img/personRibbonHover.png');
   }
+}
 
-  .two-column,
-  .three-column {
-    display: flex;
-    justify-content: space-between;
-  }
+.two-column,
+.three-column {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .two-column > .paragraph {
-    max-width: 320px;
-  }
+.two-column > .paragraph {
+  max-width: 320px;
+}
 
-  .three-column > .paragraph {
-    max-width: 212px;
-  }
+.three-column > .paragraph {
+  max-width: 212px;
+}
 
-  .the-btn {
-    margin: 0 20px 20px 0;
-  }
+.the-btn {
+  margin: 0 20px 20px 0;
+}
 </style>

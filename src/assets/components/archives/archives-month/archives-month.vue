@@ -10,13 +10,13 @@
 </template>
 
 <script>
-  export default {
-    name: 'archives-month',
-    data: function() {
-      return {
-        Month: ['January', 'February', 'Match', 'April'],
-      };
-    },
-  };
+export default {
+  name: 'archives-month',
+  data: function () {
+    return {
+      Month: ['January', 'February', 'Match', 'April'],
+    };
+  },
+};
 </script>
 <style scoped></style>
