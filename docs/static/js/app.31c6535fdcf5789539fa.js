@@ -29,2187 +29,2024 @@ webpackJsonp(
     },
     NHnr(t, e, s) {
       Object.defineProperty(e, '__esModule', { value: !0 });
-      let i = s('7+uW'),
-        a = s('/ocq'),
-        n = {
-          render() {
-            this.$createElement;
-            this._self._c;
-            return this._m(0);
-          },
-          staticRenderFns: [
-            function () {
-              let t = this,
-                e = t.$createElement,
-                i = t._self._c || e;
-              return i('div', { staticClass: 'footer-block' }, [
-                i('h2', { staticClass: 'h2' }, [t._v('Flickr Widget')]),
-                t._v(' '),
-                i('hr'),
-                t._v(' '),
-                i('div', { staticClass: 'flicks-block flex' }, [
-                  i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
-                    i('img', {
-                      staticClass: 'flick-img',
-                      attrs: { src: s('0to9'), alt: 'flick' },
-                    }),
-                  ]),
-                  t._v(' '),
-                  i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
-                    i('img', {
-                      staticClass: 'flick-img',
-                      attrs: { src: s('0to9'), alt: 'flick' },
-                    }),
-                  ]),
-                  t._v(' '),
-                  i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
-                    i('img', {
-                      staticClass: 'flick-img',
-                      attrs: { src: s('0to9'), alt: 'flick' },
-                    }),
-                  ]),
-                  t._v(' '),
-                  i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
-                    i('img', {
-                      staticClass: 'flick-img',
-                      attrs: { src: s('0to9'), alt: 'flick' },
-                    }),
-                  ]),
-                  t._v(' '),
-                  i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
-                    i('img', {
-                      staticClass: 'flick-img',
-                      attrs: { src: s('0to9'), alt: 'flick' },
-                    }),
-                  ]),
-                  t._v(' '),
-                  i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
-                    i('img', {
-                      staticClass: 'flick-img',
-                      attrs: { src: s('0to9'), alt: 'flick' },
-                    }),
-                  ]),
-                  t._v(' '),
-                  i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
-                    i('img', {
-                      staticClass: 'flick-img',
-                      attrs: { src: s('0to9'), alt: 'flick' },
-                    }),
-                  ]),
-                  t._v(' '),
-                  i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
-                    i('img', {
-                      staticClass: 'flick-img',
-                      attrs: { src: s('0to9'), alt: 'flick' },
-                    }),
-                  ]),
-                ]),
-              ]);
-            },
-          ],
-        };
-      let r = s('VU/8')(
-          { name: 'flick-widget' },
-          n,
-          !1,
-          (t) => {
-            s('+TpC');
-          },
-          null,
-          null
-        ).exports,
-        l = {
-          render() {
-            this.$createElement;
-            this._self._c;
-            return this._m(0);
-          },
-          staticRenderFns: [
-            function () {
-              let t = this.$createElement,
-                e = this._self._c || t;
-              return e(
-                'a',
-                { staticClass: 'logotype-link', attrs: { href: '#' } },
-                [
-                  e('img', {
-                    staticClass: 'logotype',
-                    attrs: { src: s('N0VK'), alt: 'logotype' },
+      const i = s('7+uW');
+      const a = s('/ocq');
+      const n = {
+        render() {
+          this.$createElement;
+          this._self._c;
+          return this._m(0);
+        },
+        staticRenderFns: [
+          function () {
+            const t = this;
+            const e = t.$createElement;
+            const i = t._self._c || e;
+            return i('div', { staticClass: 'footer-block' }, [
+              i('h2', { staticClass: 'h2' }, [t._v('Flickr Widget')]),
+              t._v(' '),
+              i('hr'),
+              t._v(' '),
+              i('div', { staticClass: 'flicks-block flex' }, [
+                i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
+                  i('img', {
+                    staticClass: 'flick-img',
+                    attrs: { src: s('0to9'), alt: 'flick' },
                   }),
-                ]
-              );
-            },
-          ],
-        };
-      let o = s('VU/8')(
-          { name: 'the-header-logo' },
-          l,
-          !1,
-          (t) => {
-            s('FX4F');
-          },
-          null,
-          null
-        ).exports,
-        c = {
-          render() {
-            let t = this,
-              e = t.$createElement,
-              s = t._self._c || e;
-            return s(
-              'div',
-              { staticClass: 'footer-block' },
-              [
-                s('h2', { staticClass: 'h2' }, [t._v('Recent Posts')]),
-                t._v(' '),
-                s('hr'),
-                t._v(' '),
-                t._l(t.recentPosts, (e) =>
-                  s('a', { staticClass: 'white', attrs: { href: '#' } }, [
-                    s('p', [t._v(t._s(e.recentPost))]),
-                  ])
-                ),
-              ],
-              2
-            );
-          },
-          staticRenderFns: [],
-        };
-      let u = s('VU/8')(
-          {
-            name: 'recent-post',
-            data() {
-              return {
-                recentPosts: [
-                  {
-                    recentPost:
-                      'Yastech Developments: The Best Web Design Company',
-                  },
-                  {
-                    recentPost:
-                      'Best PSD Freebies: Amazing Design Resource & Inspiration',
-                  },
-                  { recentPost: 'Best PSD Freebies: Login Form' },
-                  { recentPost: 'Wedding Photography Shoot Takes & Tricks}' },
-                ],
-              };
-            },
-          },
-          c,
-          !1,
-          (t) => {
-            s('+b5z');
-          },
-          'data-v-fe51e60c',
-          null
-        ).exports,
-        m = {
-          render() {
-            this.$createElement;
-            this._self._c;
-            return this._m(0);
-          },
-          staticRenderFns: [
-            function () {
-              let t = this,
-                e = t.$createElement,
-                s = t._self._c || e;
-              return s('div', [
-                s('div', { staticClass: 'twitter-comments' }, [
-                  s('p', { staticClass: 'paragraph' }, [
-                    t._v('\n      @'),
-                    s(
-                      'a',
-                      { staticClass: 'twitter-link', attrs: { href: '#' } },
-                      [t._v('pixelmater')]
-                    ),
-                    t._v(
-                      ' What an awesome design\n      with great functionality :)\n    '
-                    ),
-                  ]),
-                  t._v(' '),
-                  s('span', { staticClass: 'ago' }, [t._v('about 1 hour ago')]),
                 ]),
                 t._v(' '),
-                s('div', { staticClass: 'twitter-comments' }, [
-                  s('p', { staticClass: 'paragraph' }, [
-                    t._v('\n      @'),
-                    s(
-                      'a',
-                      { staticClass: 'twitter-link', attrs: { href: '#' } },
-                      [t._v('pixelmater')]
-                    ),
-                    t._v(
-                      ' What an awesome design\n      with great functionality :)\n    '
-                    ),
+                i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
+                  i('img', {
+                    staticClass: 'flick-img',
+                    attrs: { src: s('0to9'), alt: 'flick' },
+                  }),
+                ]),
+                t._v(' '),
+                i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
+                  i('img', {
+                    staticClass: 'flick-img',
+                    attrs: { src: s('0to9'), alt: 'flick' },
+                  }),
+                ]),
+                t._v(' '),
+                i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
+                  i('img', {
+                    staticClass: 'flick-img',
+                    attrs: { src: s('0to9'), alt: 'flick' },
+                  }),
+                ]),
+                t._v(' '),
+                i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
+                  i('img', {
+                    staticClass: 'flick-img',
+                    attrs: { src: s('0to9'), alt: 'flick' },
+                  }),
+                ]),
+                t._v(' '),
+                i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
+                  i('img', {
+                    staticClass: 'flick-img',
+                    attrs: { src: s('0to9'), alt: 'flick' },
+                  }),
+                ]),
+                t._v(' '),
+                i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
+                  i('img', {
+                    staticClass: 'flick-img',
+                    attrs: { src: s('0to9'), alt: 'flick' },
+                  }),
+                ]),
+                t._v(' '),
+                i('a', { staticClass: 'flick-link', attrs: { href: '#' } }, [
+                  i('img', {
+                    staticClass: 'flick-img',
+                    attrs: { src: s('0to9'), alt: 'flick' },
+                  }),
+                ]),
+              ]),
+            ]);
+          },
+        ],
+      };
+      const r = s('VU/8')(
+        { name: 'flick-widget' },
+        n,
+        !1,
+        (t) => {
+          s('+TpC');
+        },
+        null,
+        null,
+      ).exports;
+      const l = {
+        render() {
+          this.$createElement;
+          this._self._c;
+          return this._m(0);
+        },
+        staticRenderFns: [
+          function () {
+            const t = this.$createElement;
+            const e = this._self._c || t;
+            return e('a', { staticClass: 'logotype-link', attrs: { href: '#' } }, [
+              e('img', {
+                staticClass: 'logotype',
+                attrs: { src: s('N0VK'), alt: 'logotype' },
+              }),
+            ]);
+          },
+        ],
+      };
+      const o = s('VU/8')(
+        { name: 'the-header-logo' },
+        l,
+        !1,
+        (t) => {
+          s('FX4F');
+        },
+        null,
+        null,
+      ).exports;
+      const c = {
+        render() {
+          const t = this;
+          const e = t.$createElement;
+          const s = t._self._c || e;
+          return s(
+            'div',
+            { staticClass: 'footer-block' },
+            [
+              s('h2', { staticClass: 'h2' }, [t._v('Recent Posts')]),
+              t._v(' '),
+              s('hr'),
+              t._v(' '),
+              t._l(t.recentPosts, (e) =>
+                s('a', { staticClass: 'white', attrs: { href: '#' } }, [
+                  s('p', [t._v(t._s(e.recentPost))]),
+                ]),
+              ),
+            ],
+            2,
+          );
+        },
+        staticRenderFns: [],
+      };
+      const u = s('VU/8')(
+        {
+          name: 'recent-post',
+          data() {
+            return {
+              recentPosts: [
+                {
+                  recentPost: 'Yastech Developments: The Best Web Design Company',
+                },
+                {
+                  recentPost: 'Best PSD Freebies: Amazing Design Resource & Inspiration',
+                },
+                { recentPost: 'Best PSD Freebies: Login Form' },
+                { recentPost: 'Wedding Photography Shoot Takes & Tricks}' },
+              ],
+            };
+          },
+        },
+        c,
+        !1,
+        (t) => {
+          s('+b5z');
+        },
+        'data-v-fe51e60c',
+        null,
+      ).exports;
+      const m = {
+        render() {
+          this.$createElement;
+          this._self._c;
+          return this._m(0);
+        },
+        staticRenderFns: [
+          function () {
+            const t = this;
+            const e = t.$createElement;
+            const s = t._self._c || e;
+            return s('div', [
+              s('div', { staticClass: 'twitter-comments' }, [
+                s('p', { staticClass: 'paragraph' }, [
+                  t._v('\n      @'),
+                  s('a', { staticClass: 'twitter-link', attrs: { href: '#' } }, [
+                    t._v('pixelmater'),
                   ]),
+                  t._v(' What an awesome design\n      with great functionality :)\n    '),
+                ]),
+                t._v(' '),
+                s('span', { staticClass: 'ago' }, [t._v('about 1 hour ago')]),
+              ]),
+              t._v(' '),
+              s('div', { staticClass: 'twitter-comments' }, [
+                s('p', { staticClass: 'paragraph' }, [
+                  t._v('\n      @'),
+                  s('a', { staticClass: 'twitter-link', attrs: { href: '#' } }, [
+                    t._v('pixelmater'),
+                  ]),
+                  t._v(' What an awesome design\n      with great functionality :)\n    '),
+                ]),
+                t._v(' '),
+                s('span', { staticClass: 'ago' }, [t._v('about 2 hour ago')]),
+              ]),
+              t._v(' '),
+              s('p', [
+                t._v('Follow @'),
+                s('a', { staticClass: 'twitter-link', attrs: { href: '#' } }, [
+                  t._v('bestpsdfreebies'),
+                ]),
+              ]),
+            ]);
+          },
+        ],
+      };
+      const v = s('VU/8')(
+        { name: 'twitter-widget' },
+        m,
+        !1,
+        (t) => {
+          s('Lmo2');
+        },
+        null,
+        null,
+      ).exports;
+      const d = {
+        name: 'the-footer-block',
+        components: {
+          TwitterWidget: v,
+          RecentPost: u,
+          Logo: o,
+          FlickWidget: r,
+        },
+      };
+      const p = {
+        render() {
+          const t = this;
+          const e = t.$createElement;
+          const s = t._self._c || e;
+          return s('div', [
+            s('footer', { staticClass: 'footer' }, [
+              s(
+                'div',
+                { staticClass: 'container flex footer-top' },
+                [
+                  t._m(0),
                   t._v(' '),
-                  s('span', { staticClass: 'ago' }, [t._v('about 2 hour ago')]),
+                  s('recent-post'),
+                  t._v(' '),
+                  s(
+                    'div',
+                    { staticClass: 'footer-block' },
+                    [
+                      s('h2', { staticClass: 'h2' }, [t._v('Twitter Widget')]),
+                      t._v(' '),
+                      s('hr'),
+                      t._v(' '),
+                      s('twitter-widget'),
+                    ],
+                    1,
+                  ),
+                  t._v(' '),
+                  s('flick-widget'),
+                ],
+                1,
+              ),
+              t._v(' '),
+              s('section', { staticClass: 'bottom-section' }, [
+                s('div', { staticClass: 'container flex' }, [s('logo'), t._v(' '), t._m(1)], 1),
+              ]),
+            ]),
+          ]);
+        },
+        staticRenderFns: [
+          function () {
+            const t = this.$createElement;
+            const e = this._self._c || t;
+            return e('div', { staticClass: 'footer-block' }, [
+              e('h2', { staticClass: 'h2' }, [this._v('About Porftolio')]),
+              this._v(' '),
+              e('hr'),
+              this._v(' '),
+              e('p', { staticClass: 'paragraph white' }, [
+                this._v(
+                  ' Class aptent taciti sociosqu ad litora torquent per conubia nostra, persinioa inceptos himenaeos. Curabitur\n          sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor.\n        ',
+                ),
+              ]),
+              this._v(' '),
+              e('p', { staticClass: 'paragraph white' }, [
+                this._v(
+                  'Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor.\n          Maecenas mattis.',
+                ),
+              ]),
+            ]);
+          },
+          function () {
+            const t = this;
+            const e = t.$createElement;
+            const s = t._self._c || e;
+            return s('div', { staticClass: 'footer-bot flex' }, [
+              s('div', { staticClass: 'footer-left' }, [
+                s('p', [t._v('The Ultimate Portfolio Wordpress Theme on the Web')]),
+                t._v('\n            t:'),
+                s(
+                  'a',
+                  {
+                    staticClass: 'inherit',
+                    attrs: { href: 'tel:+8888428356' },
+                  },
+                  [t._v('(888) 842 - 8356 ')],
+                ),
+                t._v('\n            e: '),
+                s(
+                  'a',
+                  {
+                    staticClass: 'inherit',
+                    attrs: { href: 'mailto:info@bestpsdfreebies.com' },
+                  },
+                  [t._v('info@bestpsdfreebies.com')],
+                ),
+              ]),
+              t._v(' '),
+              s('div', { staticClass: 'footer-right' }, [
+                s('p', [
+                  t._v('Copyright 2012. Powered by '),
+                  s('a', { staticClass: 'footer-bot-link', attrs: { href: '#' } }, [
+                    t._v('Wordpress'),
+                  ]),
                 ]),
                 t._v(' '),
                 s('p', [
-                  t._v('Follow @'),
-                  s(
-                    'a',
-                    { staticClass: 'twitter-link', attrs: { href: '#' } },
-                    [t._v('bestpsdfreebies')]
-                  ),
-                ]),
-              ]);
-            },
-          ],
-        };
-      let v = s('VU/8')(
-          { name: 'twitter-widget' },
-          m,
-          !1,
-          (t) => {
-            s('Lmo2');
-          },
-          null,
-          null
-        ).exports,
-        d = {
-          name: 'the-footer-block',
-          components: {
-            TwitterWidget: v,
-            RecentPost: u,
-            Logo: o,
-            FlickWidget: r,
-          },
-        },
-        p = {
-          render() {
-            let t = this,
-              e = t.$createElement,
-              s = t._self._c || e;
-            return s('div', [
-              s('footer', { staticClass: 'footer' }, [
-                s(
-                  'div',
-                  { staticClass: 'container flex footer-top' },
-                  [
-                    t._m(0),
-                    t._v(' '),
-                    s('recent-post'),
-                    t._v(' '),
-                    s(
-                      'div',
-                      { staticClass: 'footer-block' },
-                      [
-                        s('h2', { staticClass: 'h2' }, [
-                          t._v('Twitter Widget'),
-                        ]),
-                        t._v(' '),
-                        s('hr'),
-                        t._v(' '),
-                        s('twitter-widget'),
-                      ],
-                      1
-                    ),
-                    t._v(' '),
-                    s('flick-widget'),
-                  ],
-                  1
-                ),
-                t._v(' '),
-                s('section', { staticClass: 'bottom-section' }, [
-                  s(
-                    'div',
-                    { staticClass: 'container flex' },
-                    [s('logo'), t._v(' '), t._m(1)],
-                    1
-                  ),
+                  s('a', { staticClass: 'footer-bot-link', attrs: { href: '#' } }, [
+                    t._v('Portfolio'),
+                  ]),
+                  t._v(' Theme by '),
+                  s('a', { staticClass: 'footer-bot-link', attrs: { href: '#' } }, [
+                    t._v('Best PSD Freebies'),
+                  ]),
                 ]),
               ]),
             ]);
           },
-          staticRenderFns: [
-            function () {
-              let t = this.$createElement,
-                e = this._self._c || t;
-              return e('div', { staticClass: 'footer-block' }, [
-                e('h2', { staticClass: 'h2' }, [this._v('About Porftolio')]),
-                this._v(' '),
-                e('hr'),
-                this._v(' '),
-                e('p', { staticClass: 'paragraph white' }, [
-                  this._v(
-                    ' Class aptent taciti sociosqu ad litora torquent per conubia nostra, persinioa inceptos himenaeos. Curabitur\n          sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor.\n        '
-                  ),
-                ]),
-                this._v(' '),
-                e('p', { staticClass: 'paragraph white' }, [
-                  this._v(
-                    'Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor.\n          Maecenas mattis.'
-                  ),
-                ]),
-              ]);
-            },
-            function () {
-              let t = this,
-                e = t.$createElement,
-                s = t._self._c || e;
-              return s('div', { staticClass: 'footer-bot flex' }, [
-                s('div', { staticClass: 'footer-left' }, [
-                  s('p', [
-                    t._v('The Ultimate Portfolio Wordpress Theme on the Web'),
+        ],
+      };
+      const h = s('VU/8')(
+        d,
+        p,
+        !1,
+        (t) => {
+          s('nzAW');
+        },
+        null,
+        null,
+      ).exports;
+      const f = {
+        render() {
+          const t = this;
+          const e = t.$createElement;
+          const s = t._self._c || e;
+          return s('div', [
+            s('nav', { staticClass: 'sidebar Categories' }, [
+              s('h3', { staticClass: 'h3 line-bottom' }, [t._v(t._s(t.categories.titles))]),
+              t._v(' '),
+              s(
+                'ul',
+                t._l(t.categories.item, (e) =>
+                  s('li', { staticClass: 'archives-item' }, [
+                    s('a', { staticClass: 'archives-link', attrs: { href: '#' } }, [t._v(t._s(e))]),
                   ]),
-                  t._v('\n            t:'),
-                  s(
-                    'a',
-                    {
-                      staticClass: 'inherit',
-                      attrs: { href: 'tel:+8888428356' },
-                    },
-                    [t._v('(888) 842 - 8356 ')]
-                  ),
-                  t._v('\n            e: '),
-                  s(
-                    'a',
-                    {
-                      staticClass: 'inherit',
-                      attrs: { href: 'mailto:info@bestpsdfreebies.com' },
-                    },
-                    [t._v('info@bestpsdfreebies.com')]
-                  ),
-                ]),
-                t._v(' '),
-                s('div', { staticClass: 'footer-right' }, [
-                  s('p', [
-                    t._v('Copyright 2012. Powered by '),
-                    s(
-                      'a',
-                      { staticClass: 'footer-bot-link', attrs: { href: '#' } },
-                      [t._v('Wordpress')]
-                    ),
-                  ]),
-                  t._v(' '),
-                  s('p', [
-                    s(
-                      'a',
-                      { staticClass: 'footer-bot-link', attrs: { href: '#' } },
-                      [t._v('Portfolio')]
-                    ),
-                    t._v(' Theme by '),
-                    s(
-                      'a',
-                      { staticClass: 'footer-bot-link', attrs: { href: '#' } },
-                      [t._v('Best PSD Freebies')]
-                    ),
-                  ]),
-                ]),
-              ]);
-            },
-          ],
-        };
-      let h = s('VU/8')(
-          d,
-          p,
-          !1,
-          (t) => {
-            s('nzAW');
-          },
-          null,
-          null
-        ).exports,
-        f = {
-          render() {
-            let t = this,
-              e = t.$createElement,
-              s = t._self._c || e;
-            return s('div', [
-              s('nav', { staticClass: 'sidebar Categories' }, [
-                s('h3', { staticClass: 'h3 line-bottom' }, [
-                  t._v(t._s(t.categories.titles)),
-                ]),
-                t._v(' '),
-                s(
-                  'ul',
-                  t._l(t.categories.item, (e) =>
-                    s('li', { staticClass: 'archives-item' }, [
-                      s(
-                        'a',
-                        { staticClass: 'archives-link', attrs: { href: '#' } },
-                        [t._v(t._s(e))]
-                      ),
-                    ])
-                  ),
-                  0
                 ),
-              ]),
-            ]);
-          },
-          staticRenderFns: [],
-        };
-      let _ = {
-          name: 'aside-block',
-          components: {
-            Categories: s('VU/8')(
-              {
-                name: 'categories',
-                data() {
-                  return {
-                    categories: {
-                      titles: 'Categories',
-                      item: [
-                        'Video',
-                        'Sports',
-                        'Media',
-                        'Entertainment',
-                        'Life',
-                        'Super Cool Stuff',
-                      ],
-                    },
-                  };
-                },
+                0,
+              ),
+            ]),
+          ]);
+        },
+        staticRenderFns: [],
+      };
+      const _ = {
+        name: 'aside-block',
+        components: {
+          Categories: s('VU/8')(
+            {
+              name: 'categories',
+              data() {
+                return {
+                  categories: {
+                    titles: 'Categories',
+                    item: ['Video', 'Sports', 'Media', 'Entertainment', 'Life', 'Super Cool Stuff'],
+                  },
+                };
               },
-              f,
-              !1,
-              (t) => {
-                s('9Qig');
-              },
-              'data-v-5976f3d2',
-              null
-            ).exports,
-            TwitterWidget: v,
-          },
-          methods: {
-            show(t) {
-              console.log(t);
             },
+            f,
+            !1,
+            (t) => {
+              s('9Qig');
+            },
+            'data-v-5976f3d2',
+            null,
+          ).exports,
+          TwitterWidget: v,
+        },
+        methods: {
+          show(t) {
+            console.log(t);
           },
         },
-        g = {
-          render() {
-            let t = this.$createElement,
-              e = this._self._c || t;
-            return e(
-              'aside',
-              [
-                this._m(0),
-                this._v(' '),
-                e('categories'),
-                this._v(' '),
-                e(
-                  'nav',
-                  { staticClass: 'sidebar twitter' },
-                  [
-                    e('h3', { staticClass: 'h3 line-bottom' }, [
-                      this._v('Twitter Widget'),
-                    ]),
-                    this._v(' '),
-                    e('twitter-widget'),
-                  ],
-                  1
-                ),
-              ],
-              1
-            );
-          },
-          staticRenderFns: [
-            function () {
-              let t = this.$createElement,
-                e = this._self._c || t;
-              return e('div', { staticClass: 'sidebar' }, [
-                e('h3', { staticClass: 'h3 line-bottom' }, [
-                  this._v('About Portfolio'),
-                ]),
-                this._v(' '),
-                e('p', { staticClass: 'paragraph' }, [
-                  this._v(
-                    '\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec\n      odio. Praese nt libero. Sed cursus ante dapibus diam. Sed nisi. Nulla\n      quis sem at nibh elemen tum imperdiet. Duis sagittis ipsum.'
-                  ),
-                ]),
-              ]);
-            },
-          ],
-        };
-      let C = s('VU/8')(
-          _,
-          g,
-          !1,
-          (t) => {
-            s('8FUA');
-          },
-          null,
-          null
-        ).exports,
-        b = {
-          render() {
-            let t = this,
-              e = t.$createElement,
-              s = t._self._c || e;
-            return s(
-              'nav',
-              { staticClass: 'nav' },
-              [
-                s(
-                  'ul',
-                  { staticClass: 'nav-top flex' },
-                  [
-                    s(
-                      'router-link',
-                      {
-                        staticClass: 'nav-top-item',
-                        attrs: {
-                          tag: 'li',
-                          exact: '',
-                          to: '/',
-                          'active-class': 'active',
-                        },
-                      },
-                      [s('a', { staticClass: 'nav-top-link' }, [t._v('Home')])]
-                    ),
-                    t._v(' '),
-                    s(
-                      'router-link',
-                      {
-                        staticClass: 'nav-top-item',
-                        attrs: {
-                          tag: 'li',
-                          to: { name: 'AboutUs' },
-                          'active-class': 'active',
-                        },
-                      },
-                      [s('a', { staticClass: 'nav-top-link' }, [t._v('About')])]
-                    ),
-                    t._v(' '),
-                    s(
-                      'router-link',
-                      {
-                        staticClass: 'nav-top-item',
-                        attrs: {
-                          tag: 'li',
-                          to: { name: 'Portfolio' },
-                          'active-class': 'active',
-                        },
-                      },
-                      [
-                        s('a', { staticClass: 'nav-top-link' }, [
-                          t._v('Portfolio'),
-                        ]),
-                      ]
-                    ),
-                    t._v(' '),
-                    s(
-                      'router-link',
-                      {
-                        staticClass: 'nav-top-item',
-                        attrs: {
-                          tag: 'li',
-                          to: { name: 'Archives' },
-                          'active-class': 'active',
-                        },
-                      },
-                      [
-                        s('a', { staticClass: 'nav-top-link' }, [
-                          t._v('Archives'),
-                        ]),
-                      ]
-                    ),
-                    t._v(' '),
-                    s(
-                      'router-link',
-                      {
-                        staticClass: 'nav-top-item',
-                        attrs: {
-                          tag: 'li',
-                          to: { name: 'Contacts' },
-                          'active-class': 'active',
-                        },
-                      },
-                      [
-                        s('a', { staticClass: 'nav-top-link' }, [
-                          t._v('Contacts'),
-                        ]),
-                      ]
-                    ),
-                  ],
-                  1
-                ),
-                t._v(' '),
-                s('router-view'),
-              ],
-              1
-            );
-          },
-          staticRenderFns: [],
-        };
-      let k = s('VU/8')(
-          {
-            name: 'navigation',
-            data() {
-              return {
-                nav: [
-                  { link: 'home', href: 'home.html' },
-                  { link: 'about', href: 'about.html' },
-                  { link: 'portfolio', href: 'portfolio.html' },
-                  { link: 'blog', href: 'blog.html' },
-                  { link: 'archives', href: 'archives.html' },
-                  { link: 'contact', href: 'contact.html' },
+      };
+      const g = {
+        render() {
+          const t = this.$createElement;
+          const e = this._self._c || t;
+          return e(
+            'aside',
+            [
+              this._m(0),
+              this._v(' '),
+              e('categories'),
+              this._v(' '),
+              e(
+                'nav',
+                { staticClass: 'sidebar twitter' },
+                [
+                  e('h3', { staticClass: 'h3 line-bottom' }, [this._v('Twitter Widget')]),
+                  this._v(' '),
+                  e('twitter-widget'),
                 ],
-              };
-            },
+                1,
+              ),
+            ],
+            1,
+          );
+        },
+        staticRenderFns: [
+          function () {
+            const t = this.$createElement;
+            const e = this._self._c || t;
+            return e('div', { staticClass: 'sidebar' }, [
+              e('h3', { staticClass: 'h3 line-bottom' }, [this._v('About Portfolio')]),
+              this._v(' '),
+              e('p', { staticClass: 'paragraph' }, [
+                this._v(
+                  '\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec\n      odio. Praese nt libero. Sed cursus ante dapibus diam. Sed nisi. Nulla\n      quis sem at nibh elemen tum imperdiet. Duis sagittis ipsum.',
+                ),
+              ]),
+            ]);
           },
-          b,
-          !1,
-          (t) => {
-            s('XiCp');
-          },
-          null,
-          null
-        ).exports,
-        A = {
-          render() {
-            this.$createElement;
-            this._self._c;
-            return this._m(0);
-          },
-          staticRenderFns: [
-            function () {
-              let t = this.$createElement,
-                e = this._self._c || t;
-              return e('form', { attrs: { action: '' } }, [
-                e('input', {
-                  staticClass: 'search',
-                  attrs: { type: 'search', name: '', id: '' },
-                }),
-              ]);
-            },
-          ],
-        };
-      let x = s('VU/8')(
-          { name: 'search' },
-          A,
-          !1,
-          (t) => {
-            s('Akvi');
-          },
-          null,
-          null
-        ).exports,
-        w = {
-          name: 'portfolio-works',
+        ],
+      };
+      const C = s('VU/8')(
+        _,
+        g,
+        !1,
+        (t) => {
+          s('8FUA');
+        },
+        null,
+        null,
+      ).exports;
+      const b = {
+        render() {
+          const t = this;
+          const e = t.$createElement;
+          const s = t._self._c || e;
+          return s(
+            'nav',
+            { staticClass: 'nav' },
+            [
+              s(
+                'ul',
+                { staticClass: 'nav-top flex' },
+                [
+                  s(
+                    'router-link',
+                    {
+                      staticClass: 'nav-top-item',
+                      attrs: {
+                        tag: 'li',
+                        exact: '',
+                        to: '/',
+                        'active-class': 'active',
+                      },
+                    },
+                    [s('a', { staticClass: 'nav-top-link' }, [t._v('Home')])],
+                  ),
+                  t._v(' '),
+                  s(
+                    'router-link',
+                    {
+                      staticClass: 'nav-top-item',
+                      attrs: {
+                        tag: 'li',
+                        to: { name: 'AboutUs' },
+                        'active-class': 'active',
+                      },
+                    },
+                    [s('a', { staticClass: 'nav-top-link' }, [t._v('About')])],
+                  ),
+                  t._v(' '),
+                  s(
+                    'router-link',
+                    {
+                      staticClass: 'nav-top-item',
+                      attrs: {
+                        tag: 'li',
+                        to: { name: 'Portfolio' },
+                        'active-class': 'active',
+                      },
+                    },
+                    [s('a', { staticClass: 'nav-top-link' }, [t._v('Portfolio')])],
+                  ),
+                  t._v(' '),
+                  s(
+                    'router-link',
+                    {
+                      staticClass: 'nav-top-item',
+                      attrs: {
+                        tag: 'li',
+                        to: { name: 'Archives' },
+                        'active-class': 'active',
+                      },
+                    },
+                    [s('a', { staticClass: 'nav-top-link' }, [t._v('Archives')])],
+                  ),
+                  t._v(' '),
+                  s(
+                    'router-link',
+                    {
+                      staticClass: 'nav-top-item',
+                      attrs: {
+                        tag: 'li',
+                        to: { name: 'Contacts' },
+                        'active-class': 'active',
+                      },
+                    },
+                    [s('a', { staticClass: 'nav-top-link' }, [t._v('Contacts')])],
+                  ),
+                ],
+                1,
+              ),
+              t._v(' '),
+              s('router-view'),
+            ],
+            1,
+          );
+        },
+        staticRenderFns: [],
+      };
+      const k = s('VU/8')(
+        {
+          name: 'navigation',
           data() {
             return {
-              portfolio: [
-                {
-                  img: s('1d6D'),
-                  title: 'Ultra Premium Slider',
-                  tag: ['web', 'development'],
-                },
-                { img: s('aTxq'), title: 'Western Poster', tag: ['print'] },
-                {
-                  img: s('LEek'),
-                  title: 'Premium Stickers',
-                  tag: ['print', 'print design'],
-                },
-                {
-                  img: s('jLc8'),
-                  title: 'Premium Stickers',
-                  tag: ['audio', 'motion graphics'],
-                },
-                {
-                  img: s('St5+'),
-                  title: 'Premium Stickers',
-                  tag: ['web', 'development'],
-                },
-                { img: s('qgFz'), title: 'Premium Stickers', tag: ['print'] },
-                {
-                  img: s('LEek'),
-                  title: 'Premium Stickers',
-                  tag: ['print design'],
-                },
-                {
-                  img: s('jLc8'),
-                  title: 'Premium Stickers',
-                  tag: ['motion graphics', 'print'],
-                },
-                {
-                  img: s('1d6D'),
-                  title: 'Ultra Premium Slider',
-                  tag: ['web', 'development'],
-                },
-                { img: s('aTxq'), title: 'Western Poster', tag: ['print'] },
-                {
-                  img: s('LEek'),
-                  title: 'Premium Stickers',
-                  tag: ['print', 'print design'],
-                },
-                {
-                  img: s('jLc8'),
-                  title: 'Premium Stickers',
-                  tag: ['audio', 'motion graphics'],
-                },
+              nav: [
+                { link: 'home', href: 'home.html' },
+                { link: 'about', href: 'about.html' },
+                { link: 'portfolio', href: 'portfolio.html' },
+                { link: 'blog', href: 'blog.html' },
+                { link: 'archives', href: 'archives.html' },
+                { link: 'contact', href: 'contact.html' },
               ],
-              selectCategories: ['All'],
             };
           },
-          computed: {
-            filterTag() {
-              const t = this.selectCategories;
-              return t.indexOf('All') !== -1
-                ? this.portfolio
-                : this.portfolio.filter(
-                    (e) => e.tag.filter((e) => t.indexOf(e) !== -1).length > 0
-                  );
-            },
+        },
+        b,
+        !1,
+        (t) => {
+          s('XiCp');
+        },
+        null,
+        null,
+      ).exports;
+      const A = {
+        render() {
+          this.$createElement;
+          this._self._c;
+          return this._m(0);
+        },
+        staticRenderFns: [
+          function () {
+            const t = this.$createElement;
+            const e = this._self._c || t;
+            return e('form', { attrs: { action: '' } }, [
+              e('input', {
+                staticClass: 'search',
+                attrs: { type: 'search', name: '', id: '' },
+              }),
+            ]);
+          },
+        ],
+      };
+      const x = s('VU/8')(
+        { name: 'search' },
+        A,
+        !1,
+        (t) => {
+          s('Akvi');
+        },
+        null,
+        null,
+      ).exports;
+      const w = {
+        name: 'portfolio-works',
+        data() {
+          return {
+            portfolio: [
+              {
+                img: s('1d6D'),
+                title: 'Ultra Premium Slider',
+                tag: ['web', 'development'],
+              },
+              { img: s('aTxq'), title: 'Western Poster', tag: ['print'] },
+              {
+                img: s('LEek'),
+                title: 'Premium Stickers',
+                tag: ['print', 'print design'],
+              },
+              {
+                img: s('jLc8'),
+                title: 'Premium Stickers',
+                tag: ['audio', 'motion graphics'],
+              },
+              {
+                img: s('St5+'),
+                title: 'Premium Stickers',
+                tag: ['web', 'development'],
+              },
+              { img: s('qgFz'), title: 'Premium Stickers', tag: ['print'] },
+              {
+                img: s('LEek'),
+                title: 'Premium Stickers',
+                tag: ['print design'],
+              },
+              {
+                img: s('jLc8'),
+                title: 'Premium Stickers',
+                tag: ['motion graphics', 'print'],
+              },
+              {
+                img: s('1d6D'),
+                title: 'Ultra Premium Slider',
+                tag: ['web', 'development'],
+              },
+              { img: s('aTxq'), title: 'Western Poster', tag: ['print'] },
+              {
+                img: s('LEek'),
+                title: 'Premium Stickers',
+                tag: ['print', 'print design'],
+              },
+              {
+                img: s('jLc8'),
+                title: 'Premium Stickers',
+                tag: ['audio', 'motion graphics'],
+              },
+            ],
+            selectCategories: ['All'],
+          };
+        },
+        computed: {
+          filterTag() {
+            const t = this.selectCategories;
+            return t.indexOf('All') !== -1
+              ? this.portfolio
+              : this.portfolio.filter((e) => e.tag.filter((e) => t.indexOf(e) !== -1).length > 0);
           },
         },
-        q = {
-          render() {
-            let t = this,
-              e = t.$createElement,
-              i = t._self._c || e;
-            return i('div', [
-              i('nav', { staticClass: 'nav' }, [
-                i('ul', { staticClass: 'portfolio-nav flex' }, [
-                  i('li', { staticClass: 'portfolio-nav-item' }, [
-                    i('label', { staticClass: 'portfolio-nav-link' }, [
-                      i('input', {
-                        directives: [
-                          {
-                            name: 'model',
-                            rawName: 'v-model',
-                            value: t.selectCategories,
-                            expression: 'selectCategories',
-                          },
-                        ],
-                        staticClass: 'input-hover',
-                        attrs: { type: 'radio', value: 'All' },
-                        domProps: { checked: t._q(t.selectCategories, 'All') },
-                        on: {
-                          change(e) {
-                            t.selectCategories = 'All';
-                          },
+      };
+      const q = {
+        render() {
+          const t = this;
+          const e = t.$createElement;
+          const i = t._self._c || e;
+          return i('div', [
+            i('nav', { staticClass: 'nav' }, [
+              i('ul', { staticClass: 'portfolio-nav flex' }, [
+                i('li', { staticClass: 'portfolio-nav-item' }, [
+                  i('label', { staticClass: 'portfolio-nav-link' }, [
+                    i('input', {
+                      directives: [
+                        {
+                          name: 'model',
+                          rawName: 'v-model',
+                          value: t.selectCategories,
+                          expression: 'selectCategories',
                         },
-                      }),
-                      t._v(' All'),
-                    ]),
+                      ],
+                      staticClass: 'input-hover',
+                      attrs: { type: 'radio', value: 'All' },
+                      domProps: { checked: t._q(t.selectCategories, 'All') },
+                      on: {
+                        change(e) {
+                          t.selectCategories = 'All';
+                        },
+                      },
+                    }),
+                    t._v(' All'),
+                  ]),
+                ]),
+                t._v(' '),
+                i('li', { staticClass: 'portfolio-nav-item' }, [
+                  i('label', { staticClass: 'portfolio-nav-link' }, [
+                    i('input', {
+                      directives: [
+                        {
+                          name: 'model',
+                          rawName: 'v-model',
+                          value: t.selectCategories,
+                          expression: 'selectCategories',
+                        },
+                      ],
+                      staticClass: 'input-hover',
+                      attrs: {
+                        type: 'radio',
+                        value: 'audio motion graphics',
+                      },
+                      domProps: {
+                        checked: t._q(t.selectCategories, 'audio motion graphics'),
+                      },
+                      on: {
+                        change(e) {
+                          t.selectCategories = 'audio motion graphics';
+                        },
+                      },
+                    }),
+                    t._v(' Audio'),
+                  ]),
+                ]),
+                t._v(' '),
+                i('li', { staticClass: 'portfolio-nav-item' }, [
+                  i('label', { staticClass: 'portfolio-nav-link' }, [
+                    i('input', {
+                      directives: [
+                        {
+                          name: 'model',
+                          rawName: 'v-model',
+                          value: t.selectCategories,
+                          expression: 'selectCategories',
+                        },
+                      ],
+                      staticClass: 'input-hover',
+                      attrs: { type: 'radio', value: 'development' },
+                      domProps: {
+                        checked: t._q(t.selectCategories, 'development'),
+                      },
+                      on: {
+                        change(e) {
+                          t.selectCategories = 'development';
+                        },
+                      },
+                    }),
+                    t._v(' Development'),
+                  ]),
+                ]),
+                t._v(' '),
+                i('li', { staticClass: 'portfolio-nav-item' }, [
+                  i('label', { staticClass: 'portfolio-nav-link' }, [
+                    i('input', {
+                      directives: [
+                        {
+                          name: 'model',
+                          rawName: 'v-model',
+                          value: t.selectCategories,
+                          expression: 'selectCategories',
+                        },
+                      ],
+                      staticClass: 'input-hover',
+                      attrs: { type: 'radio', value: 'web' },
+                      domProps: { checked: t._q(t.selectCategories, 'web') },
+                      on: {
+                        change(e) {
+                          t.selectCategories = 'web';
+                        },
+                      },
+                    }),
+                    t._v('Web'),
+                  ]),
+                ]),
+                t._v(' '),
+                i('li', { staticClass: 'portfolio-nav-item' }, [
+                  i('label', { staticClass: 'portfolio-nav-link' }, [
+                    i('input', {
+                      directives: [
+                        {
+                          name: 'model',
+                          rawName: 'v-model',
+                          value: t.selectCategories,
+                          expression: 'selectCategories',
+                        },
+                      ],
+                      staticClass: 'input-hover',
+                      attrs: { type: 'radio', value: 'print design' },
+                      domProps: {
+                        checked: t._q(t.selectCategories, 'print design'),
+                      },
+                      on: {
+                        change(e) {
+                          t.selectCategories = 'print design';
+                        },
+                      },
+                    }),
+                    t._v('Print Design'),
+                  ]),
+                ]),
+                t._v(' '),
+                i('li', { staticClass: 'portfolio-nav-item' }, [
+                  i('label', { staticClass: 'portfolio-nav-link' }, [
+                    i('input', {
+                      directives: [
+                        {
+                          name: 'model',
+                          rawName: 'v-model',
+                          value: t.selectCategories,
+                          expression: 'selectCategories',
+                        },
+                      ],
+                      staticClass: 'input-hover',
+                      attrs: { type: 'radio', value: 'motion graphics' },
+                      domProps: {
+                        checked: t._q(t.selectCategories, 'motion graphics'),
+                      },
+                      on: {
+                        change(e) {
+                          t.selectCategories = 'motion graphics';
+                        },
+                      },
+                    }),
+                    t._v('Motion Graphics'),
+                  ]),
+                ]),
+              ]),
+            ]),
+            t._v(' '),
+            i(
+              'div',
+              { staticClass: 'flex content-portfolio' },
+              t._l(t.filterTag, (e, a) =>
+                i('div', { key: a, staticClass: 'block-my-works' }, [
+                  i('div', { staticClass: 'block-image' }, [
+                    i('img', {
+                      staticClass: 'portfolio-img',
+                      attrs: { src: e.img },
+                    }),
+                    t._v(' '),
+                    t._m(0, !0),
                   ]),
                   t._v(' '),
-                  i('li', { staticClass: 'portfolio-nav-item' }, [
-                    i('label', { staticClass: 'portfolio-nav-link' }, [
-                      i('input', {
-                        directives: [
-                          {
-                            name: 'model',
-                            rawName: 'v-model',
-                            value: t.selectCategories,
-                            expression: 'selectCategories',
-                          },
-                        ],
-                        staticClass: 'input-hover',
-                        attrs: {
-                          type: 'radio',
-                          value: 'audio motion graphics',
-                        },
-                        domProps: {
-                          checked: t._q(
-                            t.selectCategories,
-                            'audio motion graphics'
+                  i('div', { staticClass: 'block-title' }, [
+                    i('h3', { staticClass: 'title-h3' }, [t._v(t._s(e.title))]),
+                    t._v(' '),
+                    i(
+                      'div',
+                      { staticClass: 'tag flex' },
+                      [
+                        i('img', {
+                          staticClass: 'icon-tag',
+                          attrs: { src: s('OJI3'), alt: 'tag icon' },
+                        }),
+                        t._v(' '),
+                        t._l(e.tag, (e, s) =>
+                          i(
+                            'a',
+                            {
+                              key: s,
+                              staticClass: 'tag-link',
+                              attrs: { href: '#' },
+                            },
+                            [t._v(`\n            ${t._s(e)}\n          `)],
                           ),
-                        },
-                        on: {
-                          change(e) {
-                            t.selectCategories = 'audio motion graphics';
-                          },
-                        },
-                      }),
-                      t._v(' Audio'),
-                    ]),
+                        ),
+                      ],
+                      2,
+                    ),
+                  ]),
+                ]),
+              ),
+              0,
+            ),
+          ]);
+        },
+        staticRenderFns: [
+          function () {
+            const t = this;
+            const e = t.$createElement;
+            const s = t._self._c || e;
+            return s('div', { staticClass: 'block-image-hover' }, [
+              s('footer', { staticClass: 'the-footer flex' }, [
+                s('span', { staticClass: 'view' }, [t._v('201 '), s('br'), t._v('views')]),
+                t._v(' '),
+                s('span', { staticClass: 'likes' }, [t._v('95 '), s('br'), t._v(' likes')]),
+                t._v(' '),
+                s('span', { staticClass: 'comments' }, [t._v('10 '), s('br'), t._v(' comments')]),
+              ]),
+              t._v(' '),
+              s('form', { staticClass: 'portfolio-search', attrs: { action: '' } }, [
+                s('input', {
+                  staticClass: 'search',
+                  attrs: { type: 'text', placeholder: '' },
+                }),
+              ]),
+            ]);
+          },
+        ],
+      };
+      const P = s('VU/8')(
+        w,
+        q,
+        !1,
+        (t) => {
+          s('DSkG');
+        },
+        null,
+        null,
+      ).exports;
+      const y = {
+        render() {
+          this.$createElement;
+          this._self._c;
+          return this._m(0);
+        },
+        staticRenderFns: [
+          function () {
+            const t = this;
+            const e = t.$createElement;
+            const i = t._self._c || e;
+            return i('div', { staticClass: 'recent-work' }, [
+              i('h2', { staticClass: 'h3 line-bottom' }, [t._v('Recent Work')]),
+              t._v(' '),
+              i('div', { staticClass: 'recent-block flex' }, [
+                i('div', { staticClass: 'description' }, [
+                  i('p', { staticClass: 'paragraph__light' }, [
+                    t._v(
+                      'Lorem ipsum dolor sit amet, omnis\n        euismod indoctum mel\n        .',
+                    ),
                   ]),
                   t._v(' '),
-                  i('li', { staticClass: 'portfolio-nav-item' }, [
-                    i('label', { staticClass: 'portfolio-nav-link' }, [
-                      i('input', {
-                        directives: [
-                          {
-                            name: 'model',
-                            rawName: 'v-model',
-                            value: t.selectCategories,
-                            expression: 'selectCategories',
-                          },
-                        ],
-                        staticClass: 'input-hover',
-                        attrs: { type: 'radio', value: 'development' },
-                        domProps: {
-                          checked: t._q(t.selectCategories, 'development'),
-                        },
-                        on: {
-                          change(e) {
-                            t.selectCategories = 'development';
-                          },
-                        },
-                      }),
-                      t._v(' Development'),
-                    ]),
+                  i('p', { staticClass: 'paragraph' }, [
+                    t._v(
+                      'Lorem ipsum dolor sit amet, omnis\n        euismod indoctum\n        mel ei, mel\n        erat\n        ancillae eloquent iam id. Movet facete sea cu, deleniti adipiscing id\n        eum. Mel alia consul constituto ex, no his inani reformidans accommoda\n        re. Et eos viderer appellantur, ferri inimicus an ius, ne inermis\n        deseruisse ius.\n      ',
+                    ),
+                  ]),
+                ]),
+                t._v(' '),
+                i('div', { staticClass: 'slider-recent-work' }, [
+                  i('div', { staticClass: 'btn-block' }, [
+                    i('button', { staticClass: 'btn-slide active' }),
+                    t._v(' '),
+                    i('button', { staticClass: 'btn-slide' }),
+                    t._v(' '),
+                    i('button', { staticClass: 'btn-slide' }),
                   ]),
                   t._v(' '),
-                  i('li', { staticClass: 'portfolio-nav-item' }, [
-                    i('label', { staticClass: 'portfolio-nav-link' }, [
-                      i('input', {
-                        directives: [
-                          {
-                            name: 'model',
-                            rawName: 'v-model',
-                            value: t.selectCategories,
-                            expression: 'selectCategories',
-                          },
-                        ],
-                        staticClass: 'input-hover',
-                        attrs: { type: 'radio', value: 'web' },
-                        domProps: { checked: t._q(t.selectCategories, 'web') },
-                        on: {
-                          change(e) {
-                            t.selectCategories = 'web';
-                          },
-                        },
-                      }),
-                      t._v('Web'),
+                  i('div', { staticClass: 'flex content-portfolio-home' }, [
+                    i('div', { staticClass: 'block-my-works' }, [
+                      i('div', { staticClass: 'block-image' }, [
+                        i('img', {
+                          staticClass: 'portfolio-img',
+                          attrs: { src: s('1d6D'), alt: 'screems girls' },
+                        }),
+                        t._v(' '),
+                        i('div', { staticClass: 'block-image-hover' }, [
+                          i('footer', { staticClass: 'the-footer flex' }, [
+                            i('span', { staticClass: 'view' }, [
+                              t._v('201 '),
+                              i('br'),
+                              t._v('views'),
+                            ]),
+                            t._v(' '),
+                            i('span', { staticClass: 'likes' }, [
+                              t._v('95 '),
+                              i('br'),
+                              t._v(' likes'),
+                            ]),
+                            t._v(' '),
+                            i('span', { staticClass: 'comments' }, [
+                              t._v('10 '),
+                              i('br'),
+                              t._v(' comments'),
+                            ]),
+                          ]),
+                          t._v(' '),
+                          i(
+                            'form',
+                            {
+                              staticClass: 'portfolio-search',
+                              attrs: { action: '' },
+                            },
+                            [
+                              i('input', {
+                                staticClass: 'search',
+                                attrs: { type: 'text', placeholder: '' },
+                              }),
+                            ],
+                          ),
+                        ]),
+                      ]),
                     ]),
-                  ]),
-                  t._v(' '),
-                  i('li', { staticClass: 'portfolio-nav-item' }, [
-                    i('label', { staticClass: 'portfolio-nav-link' }, [
-                      i('input', {
-                        directives: [
-                          {
-                            name: 'model',
-                            rawName: 'v-model',
-                            value: t.selectCategories,
-                            expression: 'selectCategories',
-                          },
-                        ],
-                        staticClass: 'input-hover',
-                        attrs: { type: 'radio', value: 'print design' },
-                        domProps: {
-                          checked: t._q(t.selectCategories, 'print design'),
-                        },
-                        on: {
-                          change(e) {
-                            t.selectCategories = 'print design';
-                          },
-                        },
-                      }),
-                      t._v('Print Design'),
+                    t._v(' '),
+                    i('div', { staticClass: 'block-my-works' }, [
+                      i('div', { staticClass: 'block-image' }, [
+                        i('img', {
+                          staticClass: 'portfolio-img',
+                          attrs: { src: s('aTxq'), alt: 'pistol' },
+                        }),
+                        t._v(' '),
+                        i('div', { staticClass: 'block-image-hover' }, [
+                          i('footer', { staticClass: 'the-footer flex' }, [
+                            i('span', { staticClass: 'view' }, [
+                              t._v('201 '),
+                              i('br'),
+                              t._v('views'),
+                            ]),
+                            t._v(' '),
+                            i('span', { staticClass: 'likes' }, [
+                              t._v('95 '),
+                              i('br'),
+                              t._v(' likes'),
+                            ]),
+                            t._v(' '),
+                            i('span', { staticClass: 'comments' }, [
+                              t._v('10 '),
+                              i('br'),
+                              t._v(' comments'),
+                            ]),
+                          ]),
+                          t._v(' '),
+                          i(
+                            'form',
+                            {
+                              staticClass: 'portfolio-search',
+                              attrs: { action: '' },
+                            },
+                            [
+                              i('input', {
+                                staticClass: 'search',
+                                attrs: { type: 'text', placeholder: '' },
+                              }),
+                            ],
+                          ),
+                        ]),
+                      ]),
                     ]),
-                  ]),
-                  t._v(' '),
-                  i('li', { staticClass: 'portfolio-nav-item' }, [
-                    i('label', { staticClass: 'portfolio-nav-link' }, [
-                      i('input', {
-                        directives: [
-                          {
-                            name: 'model',
-                            rawName: 'v-model',
-                            value: t.selectCategories,
-                            expression: 'selectCategories',
-                          },
-                        ],
-                        staticClass: 'input-hover',
-                        attrs: { type: 'radio', value: 'motion graphics' },
-                        domProps: {
-                          checked: t._q(t.selectCategories, 'motion graphics'),
-                        },
-                        on: {
-                          change(e) {
-                            t.selectCategories = 'motion graphics';
-                          },
-                        },
-                      }),
-                      t._v('Motion Graphics'),
+                    t._v(' '),
+                    i('div', { staticClass: 'block-my-works' }, [
+                      i('div', { staticClass: 'block-image' }, [
+                        i('img', {
+                          staticClass: 'portfolio-img',
+                          attrs: { src: s('LEek'), alt: 'screems girls' },
+                        }),
+                        t._v(' '),
+                        i('div', { staticClass: 'block-image-hover' }, [
+                          i('footer', { staticClass: 'the-footer flex' }, [
+                            i('span', { staticClass: 'view' }, [
+                              t._v('201 '),
+                              i('br'),
+                              t._v('views'),
+                            ]),
+                            t._v(' '),
+                            i('span', { staticClass: 'likes' }, [
+                              t._v('95 '),
+                              i('br'),
+                              t._v(' likes'),
+                            ]),
+                            t._v(' '),
+                            i('span', { staticClass: 'comments' }, [
+                              t._v('10 '),
+                              i('br'),
+                              t._v(' comments'),
+                            ]),
+                          ]),
+                          t._v(' '),
+                          i(
+                            'form',
+                            {
+                              staticClass: 'portfolio-search',
+                              attrs: { action: '' },
+                            },
+                            [
+                              i('input', {
+                                staticClass: 'search',
+                                attrs: { type: 'text', placeholder: '' },
+                              }),
+                            ],
+                          ),
+                        ]),
+                      ]),
+                    ]),
+                    t._v(' '),
+                    i('div', { staticClass: 'block-my-works' }, [
+                      i('div', { staticClass: 'block-image' }, [
+                        i('img', {
+                          staticClass: 'portfolio-img',
+                          attrs: { src: s('jLc8'), alt: 'screems girls' },
+                        }),
+                        t._v(' '),
+                        i('div', { staticClass: 'block-image-hover' }, [
+                          i('footer', { staticClass: 'the-footer flex' }, [
+                            i('span', { staticClass: 'view' }, [
+                              t._v('201 '),
+                              i('br'),
+                              t._v('views'),
+                            ]),
+                            t._v(' '),
+                            i('span', { staticClass: 'likes' }, [
+                              t._v('95 '),
+                              i('br'),
+                              t._v(' likes'),
+                            ]),
+                            t._v(' '),
+                            i('span', { staticClass: 'comments' }, [
+                              t._v('10 '),
+                              i('br'),
+                              t._v(' comments'),
+                            ]),
+                          ]),
+                          t._v(' '),
+                          i(
+                            'form',
+                            {
+                              staticClass: 'portfolio-search',
+                              attrs: { action: '' },
+                            },
+                            [
+                              i('input', {
+                                staticClass: 'search',
+                                attrs: { type: 'text', placeholder: '' },
+                              }),
+                            ],
+                          ),
+                        ]),
+                      ]),
+                    ]),
+                    t._v(' '),
+                    i('div', { staticClass: 'block-my-works' }, [
+                      i('div', { staticClass: 'block-image' }, [
+                        i('img', {
+                          staticClass: 'portfolio-img',
+                          attrs: { src: s('St5+'), alt: 'screems girls' },
+                        }),
+                        t._v(' '),
+                        i('div', { staticClass: 'block-image-hover' }, [
+                          i('footer', { staticClass: 'the-footer flex' }, [
+                            i('span', { staticClass: 'view' }, [
+                              t._v(' 201 '),
+                              i('br'),
+                              t._v('views '),
+                            ]),
+                            t._v(' '),
+                            i('span', { staticClass: 'likes' }, [
+                              t._v(' 95 '),
+                              i('br'),
+                              t._v(' likes '),
+                            ]),
+                            t._v(' '),
+                            i('span', { staticClass: 'comments' }, [
+                              t._v(' 10 '),
+                              i('br'),
+                              t._v(' comments '),
+                            ]),
+                          ]),
+                          t._v(' '),
+                          i(
+                            'form',
+                            {
+                              staticClass: 'portfolio-search',
+                              attrs: { action: '' },
+                            },
+                            [
+                              i('input', {
+                                staticClass: 'search',
+                                attrs: { type: 'text', placeholder: '' },
+                              }),
+                            ],
+                          ),
+                        ]),
+                      ]),
+                    ]),
+                    t._v(' '),
+                    i('div', { staticClass: 'block-my-works' }, [
+                      i('div', { staticClass: 'block-image' }, [
+                        i('img', {
+                          staticClass: 'portfolio-img',
+                          attrs: { src: s('qgFz'), alt: 'childcare' },
+                        }),
+                        t._v(' '),
+                        i('div', { staticClass: 'block-image-hover' }, [
+                          i('footer', { staticClass: 'the-footer flex' }, [
+                            i('span', { staticClass: 'view' }, [
+                              t._v(' 201 '),
+                              i('br'),
+                              t._v('views '),
+                            ]),
+                            t._v(' '),
+                            i('span', { staticClass: 'likes' }, [
+                              t._v(' 95 '),
+                              i('br'),
+                              t._v(' likes '),
+                            ]),
+                            t._v(' '),
+                            i('span', { staticClass: 'comments' }, [
+                              t._v(' 10 '),
+                              i('br'),
+                              t._v(' comments '),
+                            ]),
+                          ]),
+                          t._v(' '),
+                          i(
+                            'form',
+                            {
+                              staticClass: 'portfolio-search',
+                              attrs: { action: '' },
+                            },
+                            [
+                              i('input', {
+                                staticClass: 'search',
+                                attrs: { type: 'text', placeholder: '' },
+                              }),
+                            ],
+                          ),
+                        ]),
+                      ]),
                     ]),
                   ]),
                 ]),
               ]),
-              t._v(' '),
-              i(
-                'div',
-                { staticClass: 'flex content-portfolio' },
-                t._l(t.filterTag, (e, a) =>
-                  i('div', { key: a, staticClass: 'block-my-works' }, [
-                    i('div', { staticClass: 'block-image' }, [
-                      i('img', {
-                        staticClass: 'portfolio-img',
-                        attrs: { src: e.img },
-                      }),
-                      t._v(' '),
-                      t._m(0, !0),
-                    ]),
-                    t._v(' '),
-                    i('div', { staticClass: 'block-title' }, [
-                      i('h3', { staticClass: 'title-h3' }, [
-                        t._v(t._s(e.title)),
-                      ]),
-                      t._v(' '),
-                      i(
-                        'div',
-                        { staticClass: 'tag flex' },
-                        [
-                          i('img', {
-                            staticClass: 'icon-tag',
-                            attrs: { src: s('OJI3'), alt: 'tag icon' },
-                          }),
-                          t._v(' '),
-                          t._l(e.tag, (e, s) =>
-                            i(
-                              'a',
-                              {
-                                key: s,
-                                staticClass: 'tag-link',
-                                attrs: { href: '#' },
-                              },
-                              [t._v(`\n            ${t._s(e)}\n          `)]
-                            )
-                          ),
-                        ],
-                        2
-                      ),
-                    ]),
-                  ])
-                ),
-                0
-              ),
             ]);
           },
-          staticRenderFns: [
-            function () {
-              let t = this,
-                e = t.$createElement,
-                s = t._self._c || e;
-              return s('div', { staticClass: 'block-image-hover' }, [
-                s('footer', { staticClass: 'the-footer flex' }, [
-                  s('span', { staticClass: 'view' }, [
-                    t._v('201 '),
-                    s('br'),
-                    t._v('views'),
-                  ]),
-                  t._v(' '),
-                  s('span', { staticClass: 'likes' }, [
-                    t._v('95 '),
-                    s('br'),
-                    t._v(' likes'),
-                  ]),
-                  t._v(' '),
-                  s('span', { staticClass: 'comments' }, [
-                    t._v('10 '),
-                    s('br'),
-                    t._v(' comments'),
-                  ]),
-                ]),
-                t._v(' '),
-                s(
-                  'form',
-                  { staticClass: 'portfolio-search', attrs: { action: '' } },
-                  [
-                    s('input', {
-                      staticClass: 'search',
-                      attrs: { type: 'text', placeholder: '' },
-                    }),
-                  ]
-                ),
-              ]);
-            },
-          ],
-        };
-      let P = s('VU/8')(
-          w,
-          q,
-          !1,
-          (t) => {
-            s('DSkG');
-          },
-          null,
-          null
-        ).exports,
-        y = {
-          render() {
-            this.$createElement;
-            this._self._c;
-            return this._m(0);
-          },
-          staticRenderFns: [
-            function () {
-              let t = this,
-                e = t.$createElement,
-                i = t._self._c || e;
-              return i('div', { staticClass: 'recent-work' }, [
-                i('h2', { staticClass: 'h3 line-bottom' }, [
-                  t._v('Recent Work'),
-                ]),
-                t._v(' '),
-                i('div', { staticClass: 'recent-block flex' }, [
-                  i('div', { staticClass: 'description' }, [
-                    i('p', { staticClass: 'paragraph__light' }, [
-                      t._v(
-                        'Lorem ipsum dolor sit amet, omnis\n        euismod indoctum mel\n        .'
-                      ),
-                    ]),
-                    t._v(' '),
-                    i('p', { staticClass: 'paragraph' }, [
-                      t._v(
-                        'Lorem ipsum dolor sit amet, omnis\n        euismod indoctum\n        mel ei, mel\n        erat\n        ancillae eloquent iam id. Movet facete sea cu, deleniti adipiscing id\n        eum. Mel alia consul constituto ex, no his inani reformidans accommoda\n        re. Et eos viderer appellantur, ferri inimicus an ius, ne inermis\n        deseruisse ius.\n      '
-                      ),
-                    ]),
-                  ]),
-                  t._v(' '),
-                  i('div', { staticClass: 'slider-recent-work' }, [
-                    i('div', { staticClass: 'btn-block' }, [
-                      i('button', { staticClass: 'btn-slide active' }),
-                      t._v(' '),
-                      i('button', { staticClass: 'btn-slide' }),
-                      t._v(' '),
-                      i('button', { staticClass: 'btn-slide' }),
-                    ]),
-                    t._v(' '),
-                    i('div', { staticClass: 'flex content-portfolio-home' }, [
-                      i('div', { staticClass: 'block-my-works' }, [
-                        i('div', { staticClass: 'block-image' }, [
-                          i('img', {
-                            staticClass: 'portfolio-img',
-                            attrs: { src: s('1d6D'), alt: 'screems girls' },
-                          }),
-                          t._v(' '),
-                          i('div', { staticClass: 'block-image-hover' }, [
-                            i('footer', { staticClass: 'the-footer flex' }, [
-                              i('span', { staticClass: 'view' }, [
-                                t._v('201 '),
-                                i('br'),
-                                t._v('views'),
-                              ]),
-                              t._v(' '),
-                              i('span', { staticClass: 'likes' }, [
-                                t._v('95 '),
-                                i('br'),
-                                t._v(' likes'),
-                              ]),
-                              t._v(' '),
-                              i('span', { staticClass: 'comments' }, [
-                                t._v('10 '),
-                                i('br'),
-                                t._v(' comments'),
-                              ]),
-                            ]),
-                            t._v(' '),
-                            i(
-                              'form',
-                              {
-                                staticClass: 'portfolio-search',
-                                attrs: { action: '' },
-                              },
-                              [
-                                i('input', {
-                                  staticClass: 'search',
-                                  attrs: { type: 'text', placeholder: '' },
-                                }),
-                              ]
-                            ),
-                          ]),
-                        ]),
-                      ]),
-                      t._v(' '),
-                      i('div', { staticClass: 'block-my-works' }, [
-                        i('div', { staticClass: 'block-image' }, [
-                          i('img', {
-                            staticClass: 'portfolio-img',
-                            attrs: { src: s('aTxq'), alt: 'pistol' },
-                          }),
-                          t._v(' '),
-                          i('div', { staticClass: 'block-image-hover' }, [
-                            i('footer', { staticClass: 'the-footer flex' }, [
-                              i('span', { staticClass: 'view' }, [
-                                t._v('201 '),
-                                i('br'),
-                                t._v('views'),
-                              ]),
-                              t._v(' '),
-                              i('span', { staticClass: 'likes' }, [
-                                t._v('95 '),
-                                i('br'),
-                                t._v(' likes'),
-                              ]),
-                              t._v(' '),
-                              i('span', { staticClass: 'comments' }, [
-                                t._v('10 '),
-                                i('br'),
-                                t._v(' comments'),
-                              ]),
-                            ]),
-                            t._v(' '),
-                            i(
-                              'form',
-                              {
-                                staticClass: 'portfolio-search',
-                                attrs: { action: '' },
-                              },
-                              [
-                                i('input', {
-                                  staticClass: 'search',
-                                  attrs: { type: 'text', placeholder: '' },
-                                }),
-                              ]
-                            ),
-                          ]),
-                        ]),
-                      ]),
-                      t._v(' '),
-                      i('div', { staticClass: 'block-my-works' }, [
-                        i('div', { staticClass: 'block-image' }, [
-                          i('img', {
-                            staticClass: 'portfolio-img',
-                            attrs: { src: s('LEek'), alt: 'screems girls' },
-                          }),
-                          t._v(' '),
-                          i('div', { staticClass: 'block-image-hover' }, [
-                            i('footer', { staticClass: 'the-footer flex' }, [
-                              i('span', { staticClass: 'view' }, [
-                                t._v('201 '),
-                                i('br'),
-                                t._v('views'),
-                              ]),
-                              t._v(' '),
-                              i('span', { staticClass: 'likes' }, [
-                                t._v('95 '),
-                                i('br'),
-                                t._v(' likes'),
-                              ]),
-                              t._v(' '),
-                              i('span', { staticClass: 'comments' }, [
-                                t._v('10 '),
-                                i('br'),
-                                t._v(' comments'),
-                              ]),
-                            ]),
-                            t._v(' '),
-                            i(
-                              'form',
-                              {
-                                staticClass: 'portfolio-search',
-                                attrs: { action: '' },
-                              },
-                              [
-                                i('input', {
-                                  staticClass: 'search',
-                                  attrs: { type: 'text', placeholder: '' },
-                                }),
-                              ]
-                            ),
-                          ]),
-                        ]),
-                      ]),
-                      t._v(' '),
-                      i('div', { staticClass: 'block-my-works' }, [
-                        i('div', { staticClass: 'block-image' }, [
-                          i('img', {
-                            staticClass: 'portfolio-img',
-                            attrs: { src: s('jLc8'), alt: 'screems girls' },
-                          }),
-                          t._v(' '),
-                          i('div', { staticClass: 'block-image-hover' }, [
-                            i('footer', { staticClass: 'the-footer flex' }, [
-                              i('span', { staticClass: 'view' }, [
-                                t._v('201 '),
-                                i('br'),
-                                t._v('views'),
-                              ]),
-                              t._v(' '),
-                              i('span', { staticClass: 'likes' }, [
-                                t._v('95 '),
-                                i('br'),
-                                t._v(' likes'),
-                              ]),
-                              t._v(' '),
-                              i('span', { staticClass: 'comments' }, [
-                                t._v('10 '),
-                                i('br'),
-                                t._v(' comments'),
-                              ]),
-                            ]),
-                            t._v(' '),
-                            i(
-                              'form',
-                              {
-                                staticClass: 'portfolio-search',
-                                attrs: { action: '' },
-                              },
-                              [
-                                i('input', {
-                                  staticClass: 'search',
-                                  attrs: { type: 'text', placeholder: '' },
-                                }),
-                              ]
-                            ),
-                          ]),
-                        ]),
-                      ]),
-                      t._v(' '),
-                      i('div', { staticClass: 'block-my-works' }, [
-                        i('div', { staticClass: 'block-image' }, [
-                          i('img', {
-                            staticClass: 'portfolio-img',
-                            attrs: { src: s('St5+'), alt: 'screems girls' },
-                          }),
-                          t._v(' '),
-                          i('div', { staticClass: 'block-image-hover' }, [
-                            i('footer', { staticClass: 'the-footer flex' }, [
-                              i('span', { staticClass: 'view' }, [
-                                t._v(' 201 '),
-                                i('br'),
-                                t._v('views '),
-                              ]),
-                              t._v(' '),
-                              i('span', { staticClass: 'likes' }, [
-                                t._v(' 95 '),
-                                i('br'),
-                                t._v(' likes '),
-                              ]),
-                              t._v(' '),
-                              i('span', { staticClass: 'comments' }, [
-                                t._v(' 10 '),
-                                i('br'),
-                                t._v(' comments '),
-                              ]),
-                            ]),
-                            t._v(' '),
-                            i(
-                              'form',
-                              {
-                                staticClass: 'portfolio-search',
-                                attrs: { action: '' },
-                              },
-                              [
-                                i('input', {
-                                  staticClass: 'search',
-                                  attrs: { type: 'text', placeholder: '' },
-                                }),
-                              ]
-                            ),
-                          ]),
-                        ]),
-                      ]),
-                      t._v(' '),
-                      i('div', { staticClass: 'block-my-works' }, [
-                        i('div', { staticClass: 'block-image' }, [
-                          i('img', {
-                            staticClass: 'portfolio-img',
-                            attrs: { src: s('qgFz'), alt: 'childcare' },
-                          }),
-                          t._v(' '),
-                          i('div', { staticClass: 'block-image-hover' }, [
-                            i('footer', { staticClass: 'the-footer flex' }, [
-                              i('span', { staticClass: 'view' }, [
-                                t._v(' 201 '),
-                                i('br'),
-                                t._v('views '),
-                              ]),
-                              t._v(' '),
-                              i('span', { staticClass: 'likes' }, [
-                                t._v(' 95 '),
-                                i('br'),
-                                t._v(' likes '),
-                              ]),
-                              t._v(' '),
-                              i('span', { staticClass: 'comments' }, [
-                                t._v(' 10 '),
-                                i('br'),
-                                t._v(' comments '),
-                              ]),
-                            ]),
-                            t._v(' '),
-                            i(
-                              'form',
-                              {
-                                staticClass: 'portfolio-search',
-                                attrs: { action: '' },
-                              },
-                              [
-                                i('input', {
-                                  staticClass: 'search',
-                                  attrs: { type: 'text', placeholder: '' },
-                                }),
-                              ]
-                            ),
-                          ]),
-                        ]),
-                      ]),
-                    ]),
-                  ]),
-                ]),
-              ]);
-            },
-          ],
-        };
-      let F = s('VU/8')(
-          { name: 'recent-work' },
-          y,
-          !1,
-          (t) => {
-            s('nM6I');
-          },
-          null,
-          null
-        ).exports,
-        M = {
-          render() {
-            this.$createElement;
-            this._self._c;
-            return this._m(0);
-          },
-          staticRenderFns: [
-            function () {
-              let t = this,
-                e = t.$createElement,
-                i = t._self._c || e;
-              return i('div', { staticClass: 'slider-main' }, [
-                i('div', { staticClass: 'container flex' }, [
-                  i('div', { staticClass: 'slider-description' }, [
-                    i('h1', { staticClass: 'h1' }, [
-                      t._v('Portfolio Website Theme: Perfect for Anyone'),
-                    ]),
-                    t._v(' '),
-                    i('p', { staticClass: 'paragraph' }, [
-                      t._v(
-                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n        Integer nec odio.\n        Praesent libero. Sed\n        cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.\n        Duis sagittis\n        ipsum.\n      '
-                      ),
-                    ]),
-                    t._v(' '),
-                    i('p', { staticClass: 'paragraph' }, [
-                      t._v(
-                        'Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh.\n        Aenean quam. In scelerisque\n        sem at dolor. Maecenas mattis.'
-                      ),
-                    ]),
-                    t._v(' '),
-                    i('button', { staticClass: 'btn-reset btn-gray the-btn' }, [
-                      t._v('See Our Work'),
-                    ]),
-                  ]),
-                  t._v(' '),
-                  i('div', { staticClass: 'slider-img' }, [
-                    i('img', { attrs: { src: s('Ppxx'), alt: 'graphic' } }),
-                  ]),
-                  t._v(' '),
-                  i('div', { staticClass: 'btn-block-wrap' }, [
-                    i('div', { staticClass: 'btn-block' }, [
-                      i('button', { staticClass: 'btn-slide active' }),
-                      t._v(' '),
-                      i('button', { staticClass: 'btn-slide' }),
-                      t._v(' '),
-                      i('button', { staticClass: 'btn-slide' }),
-                      t._v(' '),
-                      i('button', { staticClass: 'btn-slide' }),
-                    ]),
-                  ]),
-                  t._v(' '),
-                  i('div', { staticClass: 'featured-blocks flex' }, [
-                    i('div', { staticClass: 'featured-item' }, [
-                      i('h2', { staticClass: 'h2' }, [
-                        t._v('What I Can All Do'),
-                      ]),
-                      t._v(' '),
-                      i('p', { staticClass: 'paragraph__light' }, [
-                        t._v(
-                          'Lorem ipsum dolor sit amet, omnis euismod indoctum mel\n          .'
-                        ),
-                      ]),
-                      t._v(' '),
-                      i('p', { staticClass: 'paragraph line-bottom' }, [
-                        t._v(
-                          'Lorem ipsum dolor sit amet, omnis\n          euismod indoctum\n          mel ei, mel\n          erat\n          ancillae eloquent iam id. Movet facete sea cu, deleniti adipiscing id\n          eum. Mel alia consul constituto ex, no his inani reformidans accommoda\n          re. Et eos viderer appellantur, ferri inimicus an ius, ne inermis\n          deseruisse ius.\n        '
-                        ),
-                      ]),
-                      t._v(' '),
-                      i('button', { staticClass: 'btn-read' }, [
-                        t._v('Read More'),
-                      ]),
-                    ]),
-                    t._v(' '),
-                    i('div', { staticClass: 'featured-item' }, [
-                      i('h2', { staticClass: 'h2' }, [
-                        t._v('What I Can All Do'),
-                      ]),
-                      t._v(' '),
-                      i('p', { staticClass: 'paragraph__light' }, [
-                        t._v(
-                          'Lorem ipsum dolor sit amet, omnis euismod indoctum mel\n          .'
-                        ),
-                      ]),
-                      t._v(' '),
-                      i('p', { staticClass: 'paragraph line-bottom' }, [
-                        t._v(
-                          'Lorem ipsum dolor sit amet, omnis\n          euismod indoctum\n          mel ei, mel\n          erat\n          ancillae eloquent iam id. Movet facete sea cu, deleniti adipiscing id\n          eum. Mel alia consul constituto ex, no his inani reformidans accommoda\n          re. Et eos viderer appellantur, ferri inimicus an ius, ne inermis\n          deseruisse ius.\n        '
-                        ),
-                      ]),
-                      t._v(' '),
-                      i('button', { staticClass: 'btn-read' }, [
-                        t._v('Read More'),
-                      ]),
-                    ]),
-                    t._v(' '),
-                    i('div', { staticClass: 'featured-item' }, [
-                      i('h2', { staticClass: 'h2' }, [
-                        t._v('What I Can All Do'),
-                      ]),
-                      t._v(' '),
-                      i('p', { staticClass: 'paragraph__light' }, [
-                        t._v(
-                          'Lorem ipsum dolor sit amet, omnis euismod indoctum mel\n          .'
-                        ),
-                      ]),
-                      t._v(' '),
-                      i('p', { staticClass: 'paragraph line-bottom' }, [
-                        t._v(
-                          'Lorem ipsum dolor sit amet, omnis\n          euismod indoctum\n          mel ei, mel\n          erat\n          ancillae eloquent iam id. Movet facete sea cu, deleniti adipiscing id\n          eum. Mel alia consul constituto ex, no his inani reformidans accommoda\n          re. Et eos viderer appellantur, ferri inimicus an ius, ne inermis\n          deseruisse ius.\n        '
-                        ),
-                      ]),
-                      t._v(' '),
-                      i('button', { staticClass: 'btn-read' }, [
-                        t._v('Read More'),
-                      ]),
-                    ]),
-                    t._v(' '),
-                    i('div', { staticClass: 'featured-item' }, [
-                      i('h2', { staticClass: 'h2' }, [
-                        t._v('What I Can All Do'),
-                      ]),
-                      t._v(' '),
-                      i('p', { staticClass: 'paragraph__light' }, [
-                        t._v(
-                          'Lorem ipsum dolor sit amet, omnis euismod indoctum mel.'
-                        ),
-                      ]),
-                      t._v(' '),
-                      i('p', { staticClass: 'paragraph line-bottom' }, [
-                        t._v(
-                          'Lorem ipsum dolor sit amet, omnis\n          euismod indoctum\n          mel ei, mel\n          erat\n          ancillae eloquent iam id. Movet facete sea cu, deleniti adipiscing id\n          eum. Mel alia consul constituto ex, no his inani reformidans accommoda\n          re. Et eos viderer appellantur, ferri inimicus an ius, ne inermis\n          deseruisse ius.\n        '
-                        ),
-                      ]),
-                      t._v(' '),
-                      i('button', { staticClass: 'btn-read' }, [
-                        t._v('Read More'),
-                      ]),
-                    ]),
-                  ]),
-                ]),
-              ]);
-            },
-          ],
-        };
-      let E = s('VU/8')(
-          { name: 'the-header-slider' },
-          M,
-          !1,
-          (t) => {
-            s('NPqx');
-          },
-          null,
-          null
-        ).exports,
-        S = {
-          name: 'the-main-header',
-          components: { logo: o, search: x, navigation: k },
+        ],
+      };
+      const F = s('VU/8')(
+        { name: 'recent-work' },
+        y,
+        !1,
+        (t) => {
+          s('nM6I');
         },
-        L = {
-          render() {
-            let t = this.$createElement,
-              e = this._self._c || t;
-            return e(
-              'header',
-              {
-                staticClass: 'header',
-                class: { header_border: this.$route.meta.headerBorder },
+        null,
+        null,
+      ).exports;
+      const M = {
+        render() {
+          this.$createElement;
+          this._self._c;
+          return this._m(0);
+        },
+        staticRenderFns: [
+          function () {
+            const t = this;
+            const e = t.$createElement;
+            const i = t._self._c || e;
+            return i('div', { staticClass: 'slider-main' }, [
+              i('div', { staticClass: 'container flex' }, [
+                i('div', { staticClass: 'slider-description' }, [
+                  i('h1', { staticClass: 'h1' }, [
+                    t._v('Portfolio Website Theme: Perfect for Anyone'),
+                  ]),
+                  t._v(' '),
+                  i('p', { staticClass: 'paragraph' }, [
+                    t._v(
+                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n        Integer nec odio.\n        Praesent libero. Sed\n        cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.\n        Duis sagittis\n        ipsum.\n      ',
+                    ),
+                  ]),
+                  t._v(' '),
+                  i('p', { staticClass: 'paragraph' }, [
+                    t._v(
+                      'Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh.\n        Aenean quam. In scelerisque\n        sem at dolor. Maecenas mattis.',
+                    ),
+                  ]),
+                  t._v(' '),
+                  i('button', { staticClass: 'btn-reset btn-gray the-btn' }, [
+                    t._v('See Our Work'),
+                  ]),
+                ]),
+                t._v(' '),
+                i('div', { staticClass: 'slider-img' }, [
+                  i('img', { attrs: { src: s('Ppxx'), alt: 'graphic' } }),
+                ]),
+                t._v(' '),
+                i('div', { staticClass: 'btn-block-wrap' }, [
+                  i('div', { staticClass: 'btn-block' }, [
+                    i('button', { staticClass: 'btn-slide active' }),
+                    t._v(' '),
+                    i('button', { staticClass: 'btn-slide' }),
+                    t._v(' '),
+                    i('button', { staticClass: 'btn-slide' }),
+                    t._v(' '),
+                    i('button', { staticClass: 'btn-slide' }),
+                  ]),
+                ]),
+                t._v(' '),
+                i('div', { staticClass: 'featured-blocks flex' }, [
+                  i('div', { staticClass: 'featured-item' }, [
+                    i('h2', { staticClass: 'h2' }, [t._v('What I Can All Do')]),
+                    t._v(' '),
+                    i('p', { staticClass: 'paragraph__light' }, [
+                      t._v('Lorem ipsum dolor sit amet, omnis euismod indoctum mel\n          .'),
+                    ]),
+                    t._v(' '),
+                    i('p', { staticClass: 'paragraph line-bottom' }, [
+                      t._v(
+                        'Lorem ipsum dolor sit amet, omnis\n          euismod indoctum\n          mel ei, mel\n          erat\n          ancillae eloquent iam id. Movet facete sea cu, deleniti adipiscing id\n          eum. Mel alia consul constituto ex, no his inani reformidans accommoda\n          re. Et eos viderer appellantur, ferri inimicus an ius, ne inermis\n          deseruisse ius.\n        ',
+                      ),
+                    ]),
+                    t._v(' '),
+                    i('button', { staticClass: 'btn-read' }, [t._v('Read More')]),
+                  ]),
+                  t._v(' '),
+                  i('div', { staticClass: 'featured-item' }, [
+                    i('h2', { staticClass: 'h2' }, [t._v('What I Can All Do')]),
+                    t._v(' '),
+                    i('p', { staticClass: 'paragraph__light' }, [
+                      t._v('Lorem ipsum dolor sit amet, omnis euismod indoctum mel\n          .'),
+                    ]),
+                    t._v(' '),
+                    i('p', { staticClass: 'paragraph line-bottom' }, [
+                      t._v(
+                        'Lorem ipsum dolor sit amet, omnis\n          euismod indoctum\n          mel ei, mel\n          erat\n          ancillae eloquent iam id. Movet facete sea cu, deleniti adipiscing id\n          eum. Mel alia consul constituto ex, no his inani reformidans accommoda\n          re. Et eos viderer appellantur, ferri inimicus an ius, ne inermis\n          deseruisse ius.\n        ',
+                      ),
+                    ]),
+                    t._v(' '),
+                    i('button', { staticClass: 'btn-read' }, [t._v('Read More')]),
+                  ]),
+                  t._v(' '),
+                  i('div', { staticClass: 'featured-item' }, [
+                    i('h2', { staticClass: 'h2' }, [t._v('What I Can All Do')]),
+                    t._v(' '),
+                    i('p', { staticClass: 'paragraph__light' }, [
+                      t._v('Lorem ipsum dolor sit amet, omnis euismod indoctum mel\n          .'),
+                    ]),
+                    t._v(' '),
+                    i('p', { staticClass: 'paragraph line-bottom' }, [
+                      t._v(
+                        'Lorem ipsum dolor sit amet, omnis\n          euismod indoctum\n          mel ei, mel\n          erat\n          ancillae eloquent iam id. Movet facete sea cu, deleniti adipiscing id\n          eum. Mel alia consul constituto ex, no his inani reformidans accommoda\n          re. Et eos viderer appellantur, ferri inimicus an ius, ne inermis\n          deseruisse ius.\n        ',
+                      ),
+                    ]),
+                    t._v(' '),
+                    i('button', { staticClass: 'btn-read' }, [t._v('Read More')]),
+                  ]),
+                  t._v(' '),
+                  i('div', { staticClass: 'featured-item' }, [
+                    i('h2', { staticClass: 'h2' }, [t._v('What I Can All Do')]),
+                    t._v(' '),
+                    i('p', { staticClass: 'paragraph__light' }, [
+                      t._v('Lorem ipsum dolor sit amet, omnis euismod indoctum mel.'),
+                    ]),
+                    t._v(' '),
+                    i('p', { staticClass: 'paragraph line-bottom' }, [
+                      t._v(
+                        'Lorem ipsum dolor sit amet, omnis\n          euismod indoctum\n          mel ei, mel\n          erat\n          ancillae eloquent iam id. Movet facete sea cu, deleniti adipiscing id\n          eum. Mel alia consul constituto ex, no his inani reformidans accommoda\n          re. Et eos viderer appellantur, ferri inimicus an ius, ne inermis\n          deseruisse ius.\n        ',
+                      ),
+                    ]),
+                    t._v(' '),
+                    i('button', { staticClass: 'btn-read' }, [t._v('Read More')]),
+                  ]),
+                ]),
+              ]),
+            ]);
+          },
+        ],
+      };
+      const E = s('VU/8')(
+        { name: 'the-header-slider' },
+        M,
+        !1,
+        (t) => {
+          s('NPqx');
+        },
+        null,
+        null,
+      ).exports;
+      const S = {
+        name: 'the-main-header',
+        components: { logo: o, search: x, navigation: k },
+      };
+      const L = {
+        render() {
+          const t = this.$createElement;
+          const e = this._self._c || t;
+          return e(
+            'header',
+            {
+              staticClass: 'header',
+              class: { header_border: this.$route.meta.headerBorder },
+            },
+            [
+              e(
+                'div',
+                { staticClass: 'container flex' },
+                [
+                  e('logo'),
+                  this._v(' '),
+                  e(
+                    'div',
+                    { staticClass: 'top-right flex' },
+                    [e('navigation'), this._v(' '), e('search')],
+                    1,
+                  ),
+                ],
+                1,
+              ),
+            ],
+          );
+        },
+        staticRenderFns: [],
+      };
+      const V = s('VU/8')(
+        S,
+        L,
+        !1,
+        (t) => {
+          s('d4at');
+        },
+        null,
+        null,
+      ).exports;
+      const B = {
+        name: 'Home',
+        components: {
+          MainTheHeader: V,
+          SlideHeader: E,
+          RecentWork: F,
+          BlockMyWorks: P,
+          Search: x,
+          Navigation: k,
+          Logo: o,
+          AsideBlock: C,
+          FooterBlock: h,
+        },
+      };
+      const I = {
+        render() {
+          const t = this.$createElement;
+          const e = this._self._c || t;
+          return e(
+            'div',
+            [
+              e('main-the-header'),
+              this._v(' '),
+              e('section', { staticClass: 'slider' }, [e('slide-header')], 1),
+              this._v(' '),
+              e('main', { staticClass: 'main' }, [
+                e('div', { staticClass: 'container flex' }, [e('recent-work')], 1),
+              ]),
+              this._v(' '),
+              e('footer-block'),
+            ],
+            1,
+          );
+        },
+        staticRenderFns: [],
+      };
+      const R = s('VU/8')(
+        B,
+        I,
+        !1,
+        (t) => {
+          s('Eu3c');
+        },
+        null,
+        null,
+      ).exports;
+      const U = {
+        render() {
+          const t = this;
+          const e = t.$createElement;
+          const s = t._self._c || e;
+          return s('div', [
+            s('section', { staticClass: 'last-posts' }, [
+              s('h3', { staticClass: 'h3' }, [t._v('Last 25 Posts')]),
+              t._v(' '),
+              s(
+                'ul',
+                t._l(t.lastPost, (e) =>
+                  s('li', { staticClass: 'post-item' }, [
+                    s('a', { staticClass: 'post-link', attrs: { href: '#' } }, [t._v(t._s(e))]),
+                  ]),
+                ),
+                0,
+              ),
+            ]),
+          ]);
+        },
+        staticRenderFns: [],
+      };
+      const W = s('VU/8')(
+        {
+          name: 'lastposts',
+          data() {
+            return {
+              lastPost: [
+                'Lorem ipsum sem id lectus seid dolor sit amet elit',
+                'Lorem ipsum sem id lectus seid dolor sit amet elit',
+                'Lorem ipsum blandit vitae seid dolor sit',
+                'Lorem ipsum egestas enud',
+                'Lorem ipsum seid dolor sit amet elit',
+                'Lorem ipsum sem id lectus seid',
+                'Lorem ipsum sem id lectus',
+                'Lorem ipsum sem id lectus',
+                'Lorem ipsum sem id seid dolor sit amet elit',
+                'Lorem ipsum sem id lectus seid',
+                'Lorem ipsum sem id lectus seid dolor sit amet elit',
+                'Lorem ipsum sem id lectus seid',
+                'Lorem ipsum sem id',
+                'Lorem ipsum sem id lectus seid seid dolor sit amet',
+                'Lorem ipsum sem id lectus seid',
+                'Lorem ipsum sem id lectus',
+                'Lorem ipsum sem id lectus',
+                'Lorem ipsum sem id seid dolor sit amet elit',
+                'Lorem ipsum sem id lectus seid',
+                'Lorem ipsum sem id lectus seid dolor sit amet elit',
+                'Lorem ipsum sem id lectus seid',
+                'Lorem ipsum sem id',
+                'Lorem ipsum sem id lectus seid seid dolor sit amet',
+                'Lorem ipsum sem id lectus seid',
+              ],
+            };
+          },
+        },
+        U,
+        !1,
+        (t) => {
+          s('SyI/');
+        },
+        null,
+        null,
+      ).exports;
+      const D = {
+        render() {
+          const t = this;
+          const e = t.$createElement;
+          const s = t._self._c || e;
+          return s('section', { staticClass: 'archives-block month' }, [
+            s('h3', { staticClass: 'h3' }, [t._v('2012 Archives by Month')]),
+            t._v(' '),
+            s(
+              'ul',
+              t._l(t.Month, (e) =>
+                s('li', { staticClass: 'month-item' }, [
+                  s('a', { staticClass: 'month-link', attrs: { href: '' } }, [
+                    t._v(` ${t._s(`- ${e}`)}`),
+                  ]),
+                ]),
+              ),
+              0,
+            ),
+          ]);
+        },
+        staticRenderFns: [],
+      };
+      const N = s('VU/8')(
+        {
+          name: 'archives-month',
+          data() {
+            return { Month: ['January', 'February', 'Match', 'April'] };
+          },
+        },
+        D,
+        !1,
+        (t) => {
+          s('UEzg');
+        },
+        'data-v-e8f4ccc6',
+        null,
+      ).exports;
+      const T = {
+        render() {
+          const t = this;
+          const e = t.$createElement;
+          const s = t._self._c || e;
+          return s('section', { staticClass: 'archives-block category' }, [
+            s('h3', { staticClass: 'h3' }, [t._v('Archives by Category')]),
+            t._v(' '),
+            s(
+              'ul',
+              { staticClass: 'ul-categories' },
+              t._l(t.category, (e) =>
+                s('li', { staticClass: 'archives-item' }, [
+                  s('a', { staticClass: 'archives-link', attrs: { href: '' } }, [
+                    t._v(t._s(`- ${e}`)),
+                  ]),
+                ]),
+              ),
+              0,
+            ),
+          ]);
+        },
+        staticRenderFns: [],
+      };
+      const H = {
+        name: 'archives-content',
+        components: {
+          ArchivesCategories: s('VU/8')(
+            {
+              name: 'archives-categories',
+              data() {
+                return {
+                  category: [
+                    'Video',
+                    'Sports',
+                    'Media',
+                    'Entertainment',
+                    'Life',
+                    'Super Cool Stuff',
+                  ],
+                };
               },
+            },
+            T,
+            !1,
+            (t) => {
+              s('KgYP');
+            },
+            null,
+            null,
+          ).exports,
+          ArchivesMonth: N,
+          Lastposts: W,
+        },
+        props: { titles: Object },
+      };
+      const j = {
+        render() {
+          const t = this.$createElement;
+          const e = this._self._c || t;
+          return e('div', [
+            e('h3', { staticClass: 'h3 line-bottom' }, [this._v('Archives')]),
+            this._v(' '),
+            e('p', { staticClass: 'paragraph' }, [
+              this._v(
+                '\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.\n    Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at\n    nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Maecenas\n    in magna mollis lectus lacinia mollis.\n  ',
+              ),
+            ]),
+            this._v(' '),
+            e(
+              'div',
+              { staticClass: 'archives flex' },
               [
+                e('lastposts'),
+                this._v(' '),
+                e(
+                  'div',
+                  { staticClass: 'right-block' },
+                  [e('archives-month'), this._v(' '), e('archives-categories')],
+                  1,
+                ),
+              ],
+              1,
+            ),
+          ]);
+        },
+        staticRenderFns: [],
+      };
+      const G = {
+        name: 'Archives',
+        components: {
+          AsideBlock: C,
+          ArchivesContent: s('VU/8')(
+            H,
+            j,
+            !1,
+            (t) => {
+              s('ZzGw');
+            },
+            null,
+            null,
+          ).exports,
+          FooterBlock: h,
+          MainHeader: V,
+        },
+      };
+      const K = {
+        render() {
+          const t = this.$createElement;
+          const e = this._self._c || t;
+          return e(
+            'div',
+            [
+              e('main-header'),
+              this._v(' '),
+              e('main', { staticClass: 'main' }, [
                 e(
                   'div',
                   { staticClass: 'container flex' },
                   [
-                    e('logo'),
+                    e('main', { staticClass: 'content' }, [e('archives-content')], 1),
                     this._v(' '),
-                    e(
-                      'div',
-                      { staticClass: 'top-right flex' },
-                      [e('navigation'), this._v(' '), e('search')],
-                      1
-                    ),
+                    e('aside-block'),
                   ],
-                  1
-                ),
-              ]
-            );
-          },
-          staticRenderFns: [],
-        };
-      let V = s('VU/8')(
-          S,
-          L,
-          !1,
-          (t) => {
-            s('d4at');
-          },
-          null,
-          null
-        ).exports,
-        B = {
-          name: 'Home',
-          components: {
-            MainTheHeader: V,
-            SlideHeader: E,
-            RecentWork: F,
-            BlockMyWorks: P,
-            Search: x,
-            Navigation: k,
-            Logo: o,
-            AsideBlock: C,
-            FooterBlock: h,
-          },
-        },
-        I = {
-          render() {
-            let t = this.$createElement,
-              e = this._self._c || t;
-            return e(
-              'div',
-              [
-                e('main-the-header'),
-                this._v(' '),
-                e('section', { staticClass: 'slider' }, [e('slide-header')], 1),
-                this._v(' '),
-                e('main', { staticClass: 'main' }, [
-                  e(
-                    'div',
-                    { staticClass: 'container flex' },
-                    [e('recent-work')],
-                    1
-                  ),
-                ]),
-                this._v(' '),
-                e('footer-block'),
-              ],
-              1
-            );
-          },
-          staticRenderFns: [],
-        };
-      let R = s('VU/8')(
-          B,
-          I,
-          !1,
-          (t) => {
-            s('Eu3c');
-          },
-          null,
-          null
-        ).exports,
-        U = {
-          render() {
-            let t = this,
-              e = t.$createElement,
-              s = t._self._c || e;
-            return s('div', [
-              s('section', { staticClass: 'last-posts' }, [
-                s('h3', { staticClass: 'h3' }, [t._v('Last 25 Posts')]),
-                t._v(' '),
-                s(
-                  'ul',
-                  t._l(t.lastPost, (e) =>
-                    s('li', { staticClass: 'post-item' }, [
-                      s(
-                        'a',
-                        { staticClass: 'post-link', attrs: { href: '#' } },
-                        [t._v(t._s(e))]
-                      ),
-                    ])
-                  ),
-                  0
+                  1,
                 ),
               ]),
-            ]);
-          },
-          staticRenderFns: [],
-        };
-      let W = s('VU/8')(
-          {
-            name: 'lastposts',
-            data() {
-              return {
-                lastPost: [
-                  'Lorem ipsum sem id lectus seid dolor sit amet elit',
-                  'Lorem ipsum sem id lectus seid dolor sit amet elit',
-                  'Lorem ipsum blandit vitae seid dolor sit',
-                  'Lorem ipsum egestas enud',
-                  'Lorem ipsum seid dolor sit amet elit',
-                  'Lorem ipsum sem id lectus seid',
-                  'Lorem ipsum sem id lectus',
-                  'Lorem ipsum sem id lectus',
-                  'Lorem ipsum sem id seid dolor sit amet elit',
-                  'Lorem ipsum sem id lectus seid',
-                  'Lorem ipsum sem id lectus seid dolor sit amet elit',
-                  'Lorem ipsum sem id lectus seid',
-                  'Lorem ipsum sem id',
-                  'Lorem ipsum sem id lectus seid seid dolor sit amet',
-                  'Lorem ipsum sem id lectus seid',
-                  'Lorem ipsum sem id lectus',
-                  'Lorem ipsum sem id lectus',
-                  'Lorem ipsum sem id seid dolor sit amet elit',
-                  'Lorem ipsum sem id lectus seid',
-                  'Lorem ipsum sem id lectus seid dolor sit amet elit',
-                  'Lorem ipsum sem id lectus seid',
-                  'Lorem ipsum sem id',
-                  'Lorem ipsum sem id lectus seid seid dolor sit amet',
-                  'Lorem ipsum sem id lectus seid',
-                ],
-              };
-            },
-          },
-          U,
-          !1,
-          (t) => {
-            s('SyI/');
-          },
-          null,
-          null
-        ).exports,
-        D = {
-          render() {
-            let t = this,
-              e = t.$createElement,
-              s = t._self._c || e;
-            return s('section', { staticClass: 'archives-block month' }, [
-              s('h3', { staticClass: 'h3' }, [t._v('2012 Archives by Month')]),
-              t._v(' '),
-              s(
-                'ul',
-                t._l(t.Month, (e) =>
-                  s('li', { staticClass: 'month-item' }, [
-                    s('a', { staticClass: 'month-link', attrs: { href: '' } }, [
-                      t._v(` ${t._s(`- ${e}`)}`),
-                    ]),
-                  ])
-                ),
-                0
-              ),
-            ]);
-          },
-          staticRenderFns: [],
-        };
-      let N = s('VU/8')(
-          {
-            name: 'archives-month',
-            data() {
-              return { Month: ['January', 'February', 'Match', 'April'] };
-            },
-          },
-          D,
-          !1,
-          (t) => {
-            s('UEzg');
-          },
-          'data-v-e8f4ccc6',
-          null
-        ).exports,
-        T = {
-          render() {
-            let t = this,
-              e = t.$createElement,
-              s = t._self._c || e;
-            return s('section', { staticClass: 'archives-block category' }, [
-              s('h3', { staticClass: 'h3' }, [t._v('Archives by Category')]),
-              t._v(' '),
-              s(
-                'ul',
-                { staticClass: 'ul-categories' },
-                t._l(t.category, (e) =>
-                  s('li', { staticClass: 'archives-item' }, [
-                    s(
-                      'a',
-                      { staticClass: 'archives-link', attrs: { href: '' } },
-                      [t._v(t._s(`- ${e}`))]
-                    ),
-                  ])
-                ),
-                0
-              ),
-            ]);
-          },
-          staticRenderFns: [],
-        };
-      let H = {
-          name: 'archives-content',
-          components: {
-            ArchivesCategories: s('VU/8')(
-              {
-                name: 'archives-categories',
-                data() {
-                  return {
-                    category: [
-                      'Video',
-                      'Sports',
-                      'Media',
-                      'Entertainment',
-                      'Life',
-                      'Super Cool Stuff',
-                    ],
-                  };
-                },
-              },
-              T,
-              !1,
-              (t) => {
-                s('KgYP');
-              },
-              null,
-              null
-            ).exports,
-            ArchivesMonth: N,
-            Lastposts: W,
-          },
-          props: { titles: Object },
+              this._v(' '),
+              e('footer-block'),
+            ],
+            1,
+          );
         },
-        j = {
-          render() {
-            let t = this.$createElement,
-              e = this._self._c || t;
+        staticRenderFns: [],
+      };
+      const z = s('VU/8')(
+        G,
+        K,
+        !1,
+        (t) => {
+          s('6meb');
+        },
+        'data-v-26074f52',
+        null,
+      ).exports;
+      const J = {
+        render() {
+          this.$createElement;
+          this._self._c;
+          return this._m(0);
+        },
+        staticRenderFns: [
+          function () {
+            const t = this.$createElement;
+            const e = this._self._c || t;
             return e('div', [
-              e('h3', { staticClass: 'h3 line-bottom' }, [this._v('Archives')]),
+              e('form', { staticClass: 'contact-form', attrs: { action: '' } }, [
+                e('input', {
+                  staticClass: 'form-input',
+                  attrs: {
+                    type: 'text',
+                    name: '',
+                    id: 'FirstName',
+                    placeholder: 'First Name',
+                  },
+                }),
+                this._v(' '),
+                e('input', {
+                  staticClass: 'form-input',
+                  attrs: {
+                    type: 'text',
+                    name: '',
+                    id: 'LastName',
+                    placeholder: 'Last Name',
+                  },
+                }),
+                this._v(' '),
+                e('input', {
+                  staticClass: 'form-input',
+                  attrs: {
+                    type: 'email',
+                    name: 'Email',
+                    id: 'Mail',
+                    placeholder: 'Email Address',
+                  },
+                }),
+                this._v(' '),
+                e('textarea', {
+                  staticClass: 'form-input width',
+                  attrs: {
+                    name: '',
+                    id: 'textarea',
+                    cols: '10',
+                    rows: '10',
+                    placeholder: 'Message',
+                  },
+                }),
+                this._v(' '),
+                e('button', { staticClass: 'btn-reset btn-form' }, [this._v('Send')]),
+              ]),
+            ]);
+          },
+        ],
+      };
+      const Z = {
+        components: {
+          ContactForm: s('VU/8')(
+            { name: 'contact-form' },
+            J,
+            !1,
+            (t) => {
+              s('VLef');
+            },
+            null,
+            null,
+          ).exports,
+          AsideBlock: C,
+          FooterBlock: h,
+          MainHeader: V,
+        },
+      };
+      const X = {
+        render() {
+          const t = this;
+          const e = t.$createElement;
+          const s = t._self._c || e;
+          return s(
+            'div',
+            [
+              s('main-header'),
+              t._v(' '),
+              s('main', { staticClass: 'main' }, [
+                s(
+                  'div',
+                  { staticClass: 'container flex' },
+                  [
+                    s(
+                      'main',
+                      { staticClass: 'content' },
+                      [
+                        s('h3', { staticClass: 'h3 line-bottom' }, [t._v('Contact Us')]),
+                        t._v(' '),
+                        s('p', { staticClass: 'paragraph__medium' }, [
+                          t._v(
+                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent\n          libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh\n          elementum imperdiet. Duis\n          sagittis ipsum. Praesent mauris.',
+                          ),
+                        ]),
+                        t._v(' '),
+                        s('p', { staticClass: 'paragraph' }, [
+                          t._v(
+                            '\n          Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui\n          sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id\n          ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis.\n          Aenean sodales nibh non lectus tempor a interdum justo ultricies.\n          Sed luctus dui nec nisl tempus faucibus sit amet et sem. Aenean augue\n          sapien, sodales ac bibendum ut, pellentesque id eros.',
+                          ),
+                        ]),
+                        t._v(' '),
+                        s('contact-form'),
+                      ],
+                      1,
+                    ),
+                    t._v(' '),
+                    s('aside-block'),
+                  ],
+                  1,
+                ),
+              ]),
+              t._v(' '),
+              s('footer-block'),
+            ],
+            1,
+          );
+        },
+        staticRenderFns: [],
+      };
+      const Y = s('VU/8')(Z, X, !1, null, null, null).exports;
+      const O = {
+        name: 'Portfolio',
+        components: { BlockMyWorks: P, FooterBlock: h, MainHeader: V },
+      };
+      const Q = {
+        render() {
+          const t = this.$createElement;
+          const e = this._self._c || t;
+          return e(
+            'div',
+            [
+              e('main-header'),
               this._v(' '),
-              e('p', { staticClass: 'paragraph' }, [
-                this._v(
-                  '\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.\n    Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at\n    nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Maecenas\n    in magna mollis lectus lacinia mollis.\n  '
+              e('main', { staticClass: 'main' }, [
+                e('div', { staticClass: 'container flex' }, [
+                  e(
+                    'main',
+                    { staticClass: 'content-portfolio' },
+                    [
+                      e('h3', { staticClass: 'h3 line-bottom' }, [this._v('Portfolio')]),
+                      this._v(' '),
+                      e('block-my-works'),
+                    ],
+                    1,
+                  ),
+                ]),
+              ]),
+              this._v(' '),
+              e('footer-block'),
+            ],
+            1,
+          );
+        },
+        staticRenderFns: [],
+      };
+      const $ = s('VU/8')(
+        O,
+        Q,
+        !1,
+        (t) => {
+          s('nDtH');
+        },
+        null,
+        null,
+      ).exports;
+      const tt = {
+        name: 'AboutUs',
+        components: { AsideBlock: C, FooterBlock: h, MainHeader: V },
+      };
+      const et = {
+        render() {
+          const t = this.$createElement;
+          const e = this._self._c || t;
+          return e(
+            'div',
+            [
+              e('main-header'),
+              this._v(' '),
+              e('main', { staticClass: 'main' }, [
+                e(
+                  'div',
+                  { staticClass: 'container flex' },
+                  [this._m(0), this._v(' '), e('AsideBlock')],
+                  1,
                 ),
               ]),
               this._v(' '),
-              e(
-                'div',
-                { staticClass: 'archives flex' },
-                [
-                  e('lastposts'),
-                  this._v(' '),
-                  e(
-                    'div',
-                    { staticClass: 'right-block' },
-                    [
-                      e('archives-month'),
-                      this._v(' '),
-                      e('archives-categories'),
-                    ],
-                    1
+              e('footer-block'),
+            ],
+            1,
+          );
+        },
+        staticRenderFns: [
+          function () {
+            const t = this;
+            const e = t.$createElement;
+            const i = t._self._c || e;
+            return i('main', { staticClass: 'content' }, [
+              i('h3', { staticClass: 'h3 line-bottom' }, [t._v('About Us')]),
+              t._v(' '),
+              i('p', { staticClass: 'paragraph' }, [
+                t._v(
+                  '\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec\n          odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla\n          quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent\n          mauris. Maecenas in magna mollis lectus lacinia mollis.\n        ',
+                ),
+              ]),
+              t._v(' '),
+              i('p', { staticClass: 'paragraph' }, [
+                i('img', {
+                  staticClass: 'img-person',
+                  attrs: { src: s('Pcqd'), alt: 'Mackael' },
+                }),
+                t._v(
+                  '\n          Maecenas ipsum metus, semper hendrerit varius mattis, hasr congue\n          sit amet tellus. Aliquam ullamcorper dui sed magna posuere ut elem\n          entum enim rutrum. Nam mi erat, porta idso ultrices nec, pellentesq\n          ue vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non\n          lectus tempor a interdumni justo ultricies. Sed luctus dui nec ni sl\n          tem pus faucibus sit amet et sem. Aenean augue sapien, sodales ac\n          bibendum ut, pellentesque id eros. Duis tristique porta aliquam.\n          Curabitur sagittis tincidunt erat, quis hendrerit nibh iaculis\n          vitae. Pellentesque ultricies nisl quis odio posuere facilisis. In\n          ut felis erat, ac laoreet orci. Sed lectus nulla, bibendum at\n          vulputate sit amet, tincidunt volutpat lorem. Maecenas in magna\n          mollis lectus lacinia mollis. Donec sit amet volutpat lorem.\n          Pellentesque ultricies nisl quis odio posuere facilisis. In ut felis\n          erat, ac laoreet orci. Aenean augue sapien, sodales ac bibendum ut,\n          pellentesque id eros.\n        ',
+                ),
+              ]),
+              t._v(' '),
+              i('p', { staticClass: 'paragraph' }, [
+                t._v(
+                  '\n          Maecenas ipsum metus, semper hendrerit varius mattis, congue sit\n          amet tellus. Aliquam ullamcorper dui sed magna posuere ut elementum\n          enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel\n          nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus\n          tempor a interdum justo ultricies. Sed luctus dui nec nisl tempus\n          faucibus sit amet et sem. Aenean augue sapien, sodales ac bibendum\n          ut, pellentesque id eros.\n        ',
+                ),
+              ]),
+              t._v(' '),
+              i('p', { staticClass: 'paragraph' }, [
+                t._v(
+                  '\n          Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,\n          id tristique risus ante at est. Sed pretium metus sit amet erat\n          blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum at\n          vulputate sit amet, tincidunt volutpat lorem. Maecenas in magna\n          mollis lectus lacinia mollis. Donec sit amet volutpat lorem. Duis\n          tristique porta aliquam. Curabitur sagittis tincidunt erat, quis\n          hendrerit nibh iaculis vitae.\n        ',
+                ),
+              ]),
+              t._v(' '),
+              i('p', { staticClass: 'paragraph' }, [
+                i('span', { staticClass: 'big-letter' }, [t._v('D')]),
+                t._v(
+                  ' Quisque mollis, sem id laoreet\n          pretium, lectus elit molestie urna, id tristique risus ante at est.\n          Sed pretium metus sit amet erat blandit vitae pulvinar lorem\n          egestas. Sed lectus nulla, bibendum at vulputate sit amet, tincidunt\n          volutpat lorem. Maecenas in magna mollis lectus lacinia mollis.\n          Donec sit amet volutpat lorem. Duis tristique porta aliquam.\n          Curabitur sagittis tincidunt erat, quis hendrerit nibh iaculis\n          vitae. Pellentesque ultricies nisl quis odio posuere facilisis. In\n          ut felis erat, ac laoreet orci.\n        ',
+                ),
+              ]),
+              t._v(' '),
+              i('p', { staticClass: 'paragraph__italic' }, [
+                i('span', { staticStyle: { 'font-size': '72px' } }, [t._v('"')]),
+                t._v(
+                  'Quisque mollis, sem id laoreet\n          pretium, lectus elit molestie urna, id tristique risus ante at est.\n          Sed pretium metus sit amet erat blandit vitae pulvinar lorem\n          egestas. Sed lectus nulla, bibendum at vulputate sit amet, tincidunt\n          volutpat lorem. Mae trenas in magna mollis lectus lacinia mollis.\n          Donec sit amet volutpat lorem. Du tristique porta aliquam. Curabitur\n          sagittis tincidunt erat, quis hendrerit nibh iaculis vitae.\n          Pellentesque ultric nisl quis odio posuere facilisis. In ut felis\n          erat, ac laoreet orci donec sed nulla at sit amet.\n        ',
+                ),
+              ]),
+              t._v(' '),
+              i('div', { staticClass: 'two-column' }, [
+                i('p', { staticClass: 'paragraph' }, [
+                  t._v(
+                    '\n            Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,\n            id tristique risus ante at est. Sed pretium metus sit amet erat\n            blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum\n            at vulputate sit amet, tincidunt volutpat lorem.\n          ',
                   ),
-                ],
-                1
-              ),
+                ]),
+                t._v(' '),
+                i('p', { staticClass: 'paragraph' }, [
+                  t._v(
+                    '\n            Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,\n            id tristique risus ante at est. Sed pretium metus sit amet erat\n            blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum\n            at vulputate sit amet, tincidunt volutpat lorem.\n          ',
+                  ),
+                ]),
+              ]),
+              t._v(' '),
+              i('div', { staticClass: 'three-column' }, [
+                i('p', { staticClass: 'paragraph' }, [
+                  t._v(
+                    '\n            Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,\n            id tristique risus ante at est. Sed pretium metus sit amet erat\n            blandit vitae pulvinar lorem egestas.\n          ',
+                  ),
+                ]),
+                t._v(' '),
+                i('p', { staticClass: 'paragraph' }, [
+                  t._v(
+                    '\n            Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,\n            id tristique risus ante at est. Sed pretium metus sit amet erat\n            blandit vitae pulvinar lorem egestas.\n          ',
+                  ),
+                ]),
+                t._v(' '),
+                i('p', { staticClass: 'paragraph' }, [
+                  t._v(
+                    '\n            Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,\n            id tristique risus ante at est. Sed pretium metus sit amet erat\n            blandit vitae pulvinar lorem egestas.\n          ',
+                  ),
+                ]),
+              ]),
+              t._v(' '),
+              i('button', { staticClass: 'the-btn btn-green' }, [t._v('Button Text')]),
+              t._v(' '),
+              i('button', { staticClass: 'the-btn btn-gray' }, [t._v('Button Text')]),
+              t._v(' '),
+              i('button', { staticClass: 'the-btn btn-blue' }, [t._v('Button Text')]),
+              t._v(' '),
+              i('button', { staticClass: 'the-btn btn-orange' }, [t._v('Button Text')]),
+              t._v(' '),
+              i('button', { staticClass: 'the-btn btn-pink' }, [t._v('Button Text')]),
+              t._v(' '),
+              i('button', { staticClass: 'the-btn btn-red' }, [t._v('Button Text')]),
+              t._v(' '),
+              i('button', { staticClass: 'the-btn btn-lightblue' }, [t._v('Button Text')]),
+              t._v(' '),
+              i('div', { staticClass: 'block-alerts' }, [
+                i('div', { staticClass: 'block-alert-item alert-green' }, [t._v('Alert Text')]),
+                t._v(' '),
+                i('div', { staticClass: 'block-alert-item alert-red' }, [t._v('Alert Text')]),
+                t._v(' '),
+                i('div', { staticClass: 'block-alert-item alert-orange' }, [t._v('Alert Text')]),
+                t._v(' '),
+                i('div', { staticClass: 'block-alert-item alert-blue' }, [t._v('Alert Text')]),
+              ]),
             ]);
           },
-          staticRenderFns: [],
-        };
-      let G = {
-          name: 'Archives',
-          components: {
-            AsideBlock: C,
-            ArchivesContent: s('VU/8')(
-              H,
-              j,
-              !1,
-              (t) => {
-                s('ZzGw');
-              },
-              null,
-              null
-            ).exports,
-            FooterBlock: h,
-            MainHeader: V,
-          },
-        },
-        K = {
-          render() {
-            let t = this.$createElement,
-              e = this._self._c || t;
-            return e(
-              'div',
-              [
-                e('main-header'),
-                this._v(' '),
-                e('main', { staticClass: 'main' }, [
-                  e(
-                    'div',
-                    { staticClass: 'container flex' },
-                    [
-                      e(
-                        'main',
-                        { staticClass: 'content' },
-                        [e('archives-content')],
-                        1
-                      ),
-                      this._v(' '),
-                      e('aside-block'),
-                    ],
-                    1
-                  ),
-                ]),
-                this._v(' '),
-                e('footer-block'),
-              ],
-              1
-            );
-          },
-          staticRenderFns: [],
-        };
-      let z = s('VU/8')(
-          G,
-          K,
-          !1,
-          (t) => {
-            s('6meb');
-          },
-          'data-v-26074f52',
-          null
-        ).exports,
-        J = {
-          render() {
-            this.$createElement;
-            this._self._c;
-            return this._m(0);
-          },
-          staticRenderFns: [
-            function () {
-              let t = this.$createElement,
-                e = this._self._c || t;
-              return e('div', [
-                e(
-                  'form',
-                  { staticClass: 'contact-form', attrs: { action: '' } },
-                  [
-                    e('input', {
-                      staticClass: 'form-input',
-                      attrs: {
-                        type: 'text',
-                        name: '',
-                        id: 'FirstName',
-                        placeholder: 'First Name',
-                      },
-                    }),
-                    this._v(' '),
-                    e('input', {
-                      staticClass: 'form-input',
-                      attrs: {
-                        type: 'text',
-                        name: '',
-                        id: 'LastName',
-                        placeholder: 'Last Name',
-                      },
-                    }),
-                    this._v(' '),
-                    e('input', {
-                      staticClass: 'form-input',
-                      attrs: {
-                        type: 'email',
-                        name: 'Email',
-                        id: 'Mail',
-                        placeholder: 'Email Address',
-                      },
-                    }),
-                    this._v(' '),
-                    e('textarea', {
-                      staticClass: 'form-input width',
-                      attrs: {
-                        name: '',
-                        id: 'textarea',
-                        cols: '10',
-                        rows: '10',
-                        placeholder: 'Message',
-                      },
-                    }),
-                    this._v(' '),
-                    e('button', { staticClass: 'btn-reset btn-form' }, [
-                      this._v('Send'),
-                    ]),
-                  ]
-                ),
-              ]);
-            },
-          ],
-        };
-      let Z = {
-          components: {
-            ContactForm: s('VU/8')(
-              { name: 'contact-form' },
-              J,
-              !1,
-              (t) => {
-                s('VLef');
-              },
-              null,
-              null
-            ).exports,
-            AsideBlock: C,
-            FooterBlock: h,
-            MainHeader: V,
-          },
-        },
-        X = {
-          render() {
-            let t = this,
-              e = t.$createElement,
-              s = t._self._c || e;
-            return s(
-              'div',
-              [
-                s('main-header'),
-                t._v(' '),
-                s('main', { staticClass: 'main' }, [
-                  s(
-                    'div',
-                    { staticClass: 'container flex' },
-                    [
-                      s(
-                        'main',
-                        { staticClass: 'content' },
-                        [
-                          s('h3', { staticClass: 'h3 line-bottom' }, [
-                            t._v('Contact Us'),
-                          ]),
-                          t._v(' '),
-                          s('p', { staticClass: 'paragraph__medium' }, [
-                            t._v(
-                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent\n          libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh\n          elementum imperdiet. Duis\n          sagittis ipsum. Praesent mauris.'
-                            ),
-                          ]),
-                          t._v(' '),
-                          s('p', { staticClass: 'paragraph' }, [
-                            t._v(
-                              '\n          Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui\n          sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id\n          ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis.\n          Aenean sodales nibh non lectus tempor a interdum justo ultricies.\n          Sed luctus dui nec nisl tempus faucibus sit amet et sem. Aenean augue\n          sapien, sodales ac bibendum ut, pellentesque id eros.'
-                            ),
-                          ]),
-                          t._v(' '),
-                          s('contact-form'),
-                        ],
-                        1
-                      ),
-                      t._v(' '),
-                      s('aside-block'),
-                    ],
-                    1
-                  ),
-                ]),
-                t._v(' '),
-                s('footer-block'),
-              ],
-              1
-            );
-          },
-          staticRenderFns: [],
-        },
-        Y = s('VU/8')(Z, X, !1, null, null, null).exports,
-        O = {
-          name: 'Portfolio',
-          components: { BlockMyWorks: P, FooterBlock: h, MainHeader: V },
-        },
-        Q = {
-          render() {
-            let t = this.$createElement,
-              e = this._self._c || t;
-            return e(
-              'div',
-              [
-                e('main-header'),
-                this._v(' '),
-                e('main', { staticClass: 'main' }, [
-                  e('div', { staticClass: 'container flex' }, [
-                    e(
-                      'main',
-                      { staticClass: 'content-portfolio' },
-                      [
-                        e('h3', { staticClass: 'h3 line-bottom' }, [
-                          this._v('Portfolio'),
-                        ]),
-                        this._v(' '),
-                        e('block-my-works'),
-                      ],
-                      1
-                    ),
-                  ]),
-                ]),
-                this._v(' '),
-                e('footer-block'),
-              ],
-              1
-            );
-          },
-          staticRenderFns: [],
-        };
-      let $ = s('VU/8')(
-          O,
-          Q,
-          !1,
-          (t) => {
-            s('nDtH');
-          },
-          null,
-          null
-        ).exports,
-        tt = {
-          name: 'AboutUs',
-          components: { AsideBlock: C, FooterBlock: h, MainHeader: V },
-        },
-        et = {
-          render() {
-            let t = this.$createElement,
-              e = this._self._c || t;
-            return e(
-              'div',
-              [
-                e('main-header'),
-                this._v(' '),
-                e('main', { staticClass: 'main' }, [
-                  e(
-                    'div',
-                    { staticClass: 'container flex' },
-                    [this._m(0), this._v(' '), e('AsideBlock')],
-                    1
-                  ),
-                ]),
-                this._v(' '),
-                e('footer-block'),
-              ],
-              1
-            );
-          },
-          staticRenderFns: [
-            function () {
-              let t = this,
-                e = t.$createElement,
-                i = t._self._c || e;
-              return i('main', { staticClass: 'content' }, [
-                i('h3', { staticClass: 'h3 line-bottom' }, [t._v('About Us')]),
-                t._v(' '),
-                i('p', { staticClass: 'paragraph' }, [
-                  t._v(
-                    '\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec\n          odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla\n          quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent\n          mauris. Maecenas in magna mollis lectus lacinia mollis.\n        '
-                  ),
-                ]),
-                t._v(' '),
-                i('p', { staticClass: 'paragraph' }, [
-                  i('img', {
-                    staticClass: 'img-person',
-                    attrs: { src: s('Pcqd'), alt: 'Mackael' },
-                  }),
-                  t._v(
-                    '\n          Maecenas ipsum metus, semper hendrerit varius mattis, hasr congue\n          sit amet tellus. Aliquam ullamcorper dui sed magna posuere ut elem\n          entum enim rutrum. Nam mi erat, porta idso ultrices nec, pellentesq\n          ue vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non\n          lectus tempor a interdumni justo ultricies. Sed luctus dui nec ni sl\n          tem pus faucibus sit amet et sem. Aenean augue sapien, sodales ac\n          bibendum ut, pellentesque id eros. Duis tristique porta aliquam.\n          Curabitur sagittis tincidunt erat, quis hendrerit nibh iaculis\n          vitae. Pellentesque ultricies nisl quis odio posuere facilisis. In\n          ut felis erat, ac laoreet orci. Sed lectus nulla, bibendum at\n          vulputate sit amet, tincidunt volutpat lorem. Maecenas in magna\n          mollis lectus lacinia mollis. Donec sit amet volutpat lorem.\n          Pellentesque ultricies nisl quis odio posuere facilisis. In ut felis\n          erat, ac laoreet orci. Aenean augue sapien, sodales ac bibendum ut,\n          pellentesque id eros.\n        '
-                  ),
-                ]),
-                t._v(' '),
-                i('p', { staticClass: 'paragraph' }, [
-                  t._v(
-                    '\n          Maecenas ipsum metus, semper hendrerit varius mattis, congue sit\n          amet tellus. Aliquam ullamcorper dui sed magna posuere ut elementum\n          enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel\n          nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus\n          tempor a interdum justo ultricies. Sed luctus dui nec nisl tempus\n          faucibus sit amet et sem. Aenean augue sapien, sodales ac bibendum\n          ut, pellentesque id eros.\n        '
-                  ),
-                ]),
-                t._v(' '),
-                i('p', { staticClass: 'paragraph' }, [
-                  t._v(
-                    '\n          Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,\n          id tristique risus ante at est. Sed pretium metus sit amet erat\n          blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum at\n          vulputate sit amet, tincidunt volutpat lorem. Maecenas in magna\n          mollis lectus lacinia mollis. Donec sit amet volutpat lorem. Duis\n          tristique porta aliquam. Curabitur sagittis tincidunt erat, quis\n          hendrerit nibh iaculis vitae.\n        '
-                  ),
-                ]),
-                t._v(' '),
-                i('p', { staticClass: 'paragraph' }, [
-                  i('span', { staticClass: 'big-letter' }, [t._v('D')]),
-                  t._v(
-                    ' Quisque mollis, sem id laoreet\n          pretium, lectus elit molestie urna, id tristique risus ante at est.\n          Sed pretium metus sit amet erat blandit vitae pulvinar lorem\n          egestas. Sed lectus nulla, bibendum at vulputate sit amet, tincidunt\n          volutpat lorem. Maecenas in magna mollis lectus lacinia mollis.\n          Donec sit amet volutpat lorem. Duis tristique porta aliquam.\n          Curabitur sagittis tincidunt erat, quis hendrerit nibh iaculis\n          vitae. Pellentesque ultricies nisl quis odio posuere facilisis. In\n          ut felis erat, ac laoreet orci.\n        '
-                  ),
-                ]),
-                t._v(' '),
-                i('p', { staticClass: 'paragraph__italic' }, [
-                  i('span', { staticStyle: { 'font-size': '72px' } }, [
-                    t._v('"'),
-                  ]),
-                  t._v(
-                    'Quisque mollis, sem id laoreet\n          pretium, lectus elit molestie urna, id tristique risus ante at est.\n          Sed pretium metus sit amet erat blandit vitae pulvinar lorem\n          egestas. Sed lectus nulla, bibendum at vulputate sit amet, tincidunt\n          volutpat lorem. Mae trenas in magna mollis lectus lacinia mollis.\n          Donec sit amet volutpat lorem. Du tristique porta aliquam. Curabitur\n          sagittis tincidunt erat, quis hendrerit nibh iaculis vitae.\n          Pellentesque ultric nisl quis odio posuere facilisis. In ut felis\n          erat, ac laoreet orci donec sed nulla at sit amet.\n        '
-                  ),
-                ]),
-                t._v(' '),
-                i('div', { staticClass: 'two-column' }, [
-                  i('p', { staticClass: 'paragraph' }, [
-                    t._v(
-                      '\n            Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,\n            id tristique risus ante at est. Sed pretium metus sit amet erat\n            blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum\n            at vulputate sit amet, tincidunt volutpat lorem.\n          '
-                    ),
-                  ]),
-                  t._v(' '),
-                  i('p', { staticClass: 'paragraph' }, [
-                    t._v(
-                      '\n            Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,\n            id tristique risus ante at est. Sed pretium metus sit amet erat\n            blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum\n            at vulputate sit amet, tincidunt volutpat lorem.\n          '
-                    ),
-                  ]),
-                ]),
-                t._v(' '),
-                i('div', { staticClass: 'three-column' }, [
-                  i('p', { staticClass: 'paragraph' }, [
-                    t._v(
-                      '\n            Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,\n            id tristique risus ante at est. Sed pretium metus sit amet erat\n            blandit vitae pulvinar lorem egestas.\n          '
-                    ),
-                  ]),
-                  t._v(' '),
-                  i('p', { staticClass: 'paragraph' }, [
-                    t._v(
-                      '\n            Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,\n            id tristique risus ante at est. Sed pretium metus sit amet erat\n            blandit vitae pulvinar lorem egestas.\n          '
-                    ),
-                  ]),
-                  t._v(' '),
-                  i('p', { staticClass: 'paragraph' }, [
-                    t._v(
-                      '\n            Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,\n            id tristique risus ante at est. Sed pretium metus sit amet erat\n            blandit vitae pulvinar lorem egestas.\n          '
-                    ),
-                  ]),
-                ]),
-                t._v(' '),
-                i('button', { staticClass: 'the-btn btn-green' }, [
-                  t._v('Button Text'),
-                ]),
-                t._v(' '),
-                i('button', { staticClass: 'the-btn btn-gray' }, [
-                  t._v('Button Text'),
-                ]),
-                t._v(' '),
-                i('button', { staticClass: 'the-btn btn-blue' }, [
-                  t._v('Button Text'),
-                ]),
-                t._v(' '),
-                i('button', { staticClass: 'the-btn btn-orange' }, [
-                  t._v('Button Text'),
-                ]),
-                t._v(' '),
-                i('button', { staticClass: 'the-btn btn-pink' }, [
-                  t._v('Button Text'),
-                ]),
-                t._v(' '),
-                i('button', { staticClass: 'the-btn btn-red' }, [
-                  t._v('Button Text'),
-                ]),
-                t._v(' '),
-                i('button', { staticClass: 'the-btn btn-lightblue' }, [
-                  t._v('Button Text'),
-                ]),
-                t._v(' '),
-                i('div', { staticClass: 'block-alerts' }, [
-                  i('div', { staticClass: 'block-alert-item alert-green' }, [
-                    t._v('Alert Text'),
-                  ]),
-                  t._v(' '),
-                  i('div', { staticClass: 'block-alert-item alert-red' }, [
-                    t._v('Alert Text'),
-                  ]),
-                  t._v(' '),
-                  i('div', { staticClass: 'block-alert-item alert-orange' }, [
-                    t._v('Alert Text'),
-                  ]),
-                  t._v(' '),
-                  i('div', { staticClass: 'block-alert-item alert-blue' }, [
-                    t._v('Alert Text'),
-                  ]),
-                ]),
-              ]);
-            },
-          ],
-        };
+        ],
+      };
       const st = s('VU/8')(
         tt,
         et,
@@ -2218,69 +2055,62 @@ webpackJsonp(
           s('FsLZ');
         },
         null,
-        null
+        null,
       ).exports;
       i.a.use(a.a);
-      let it = new a.a({
-          routes: [
-            { path: '/', name: 'Home', component: R },
-            {
-              path: '/archives',
-              name: 'Archives',
-              component: z,
-              meta: { headerBorder: !0 },
-            },
-            {
-              path: '/contacts',
-              name: 'Contacts',
-              component: Y,
-              meta: { headerBorder: !0 },
-            },
-            {
-              path: '/portfolio',
-              component: $,
-              name: 'Portfolio',
-              meta: { headerBorder: !0 },
-            },
-            {
-              path: '/about-us',
-              component: st,
-              name: 'AboutUs',
-              meta: { headerBorder: !0 },
-            },
-          ],
-        }),
-        at =
-          (s('pOKD'),
+      const it = new a.a({
+        routes: [
+          { path: '/', name: 'Home', component: R },
           {
-            name: 'App',
-            router: it,
-            components: { MainHeader: V, FooterBlock: h },
-            data() {
-              return {
-                msg: 'Мой тест',
-                categories: {
-                  titles: 'categories',
-                  item: [
-                    'Video',
-                    'Sports',
-                    'Media',
-                    'Entertainment',
-                    'Life',
-                    'Super Cool Stuff',
-                  ],
-                },
-              };
-            },
-          }),
-        nt = {
-          render() {
-            let t = this.$createElement,
-              e = this._self._c || t;
-            return e('div', { attrs: { id: 'app' } }, [e('router-view')], 1);
+            path: '/archives',
+            name: 'Archives',
+            component: z,
+            meta: { headerBorder: !0 },
           },
-          staticRenderFns: [],
-        };
+          {
+            path: '/contacts',
+            name: 'Contacts',
+            component: Y,
+            meta: { headerBorder: !0 },
+          },
+          {
+            path: '/portfolio',
+            component: $,
+            name: 'Portfolio',
+            meta: { headerBorder: !0 },
+          },
+          {
+            path: '/about-us',
+            component: st,
+            name: 'AboutUs',
+            meta: { headerBorder: !0 },
+          },
+        ],
+      });
+      const at =
+        (s('pOKD'),
+        {
+          name: 'App',
+          router: it,
+          components: { MainHeader: V, FooterBlock: h },
+          data() {
+            return {
+              msg: 'Мой тест',
+              categories: {
+                titles: 'categories',
+                item: ['Video', 'Sports', 'Media', 'Entertainment', 'Life', 'Super Cool Stuff'],
+              },
+            };
+          },
+        });
+      const nt = {
+        render() {
+          const t = this.$createElement;
+          const e = this._self._c || t;
+          return e('div', { attrs: { id: 'app' } }, [e('router-view')], 1);
+        },
+        staticRenderFns: [],
+      };
       const rt = s('VU/8')(
         at,
         nt,
@@ -2289,7 +2119,7 @@ webpackJsonp(
           s('c0Tn');
         },
         null,
-        null
+        null,
       ).exports;
       (i.a.config.productionTip = !1),
         new i.a({
@@ -2334,5 +2164,5 @@ webpackJsonp(
       t.exports = `${s.p}static/img/childcare.41d13d6.jpg`;
     },
   },
-  ['NHnr']
+  ['NHnr'],
 );

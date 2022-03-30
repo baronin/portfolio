@@ -8,8 +8,8 @@
     if (c) for (l = 0; l < c.length; l++) p = e((e.s = c[l]));
     return p;
   };
-  var n = {},
-    t = { 2: 0 };
+  const n = {};
+  var t = { 2: 0 };
   function e(o) {
     if (n[o]) return n[o].exports;
     const t = (n[o] = { i: o, l: !1, exports: {} });

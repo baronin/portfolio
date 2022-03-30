@@ -14,13 +14,13 @@
 </template>
 
 <script>
-import MainHeader from '../assets/components/the-header/the-header';
-import FooterBlock from '../assets/components/the-footer/footer-block';
-import ArchivesContent from '../assets/components/archives/archives-content';
-import AsideBlock from '../assets/components/aside-block/aside-block';
+import MainHeader from '../components/the-header/the-header.vue';
+import FooterBlock from '../components/the-footer/footer-block.vue';
+import ArchivesContent from '../components/archives/archives-content.vue';
+import AsideBlock from '../components/aside-block/aside-block.vue';
 
 export default {
-  name: 'Archives',
+  name: 'MainArchives',
   components: { AsideBlock, ArchivesContent, FooterBlock, MainHeader },
 };
 </script>

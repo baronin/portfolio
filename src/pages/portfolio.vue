@@ -14,12 +14,12 @@
 </template>
 
 <script>
-import MainHeader from '../assets/components/the-header/the-header';
-import FooterBlock from '../assets/components/the-footer/footer-block';
-import BlockMyWorks from '../assets/components/portfolio/portfolio-works';
+import MainHeader from '../components/the-header/the-header.vue';
+import FooterBlock from '../components/the-footer/footer-block.vue';
+import BlockMyWorks from '../components/portfolio/portfolio-works.vue';
 
 export default {
-  name: 'Portfolio',
+  name: 'PagePortfolio',
   components: { BlockMyWorks, FooterBlock, MainHeader },
 };
 </script>

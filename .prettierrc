@@ -1,14 +1,8 @@
 {
-    "extends": ["airbnb", "prettier", "plugin:node/recommended"],
-    "plugins": ["prettier"],
-    "singleQuote": true,
-    "rules": {
-      "prettier/prettier": "error",
-      "no-unused-vars": "warn",
-      "no-console": "warn",
-      "func-names": "off",
-      "no-process-exit": "off",
-      "object-shorthand": "off",
-      "class-methods-use-this": "off"
-    }
-  }
+  "printWidth": 100,
+  "singleQuote" : true,
+  "tabWidth": 2,
+  "semi": true,
+  "trailingComma": "all",
+  "bracketSameLine": true
+}
