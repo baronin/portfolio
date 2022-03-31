@@ -1,0 +1,31 @@
+// http://eslint.org/docs/user-guide/configuring
+// https://eslint.vuejs.org/user-guide/#usage
+{
+  "env": {
+  "browser": true,
+    "jest": true
+  },
+    "extends": [
+    "airbnb-base",
+    "plugin:vue/recommended",
+    "prettier"
+  ],
+    "plugins": [
+    "vue",
+    "prettier"
+  ],
+  "rules": {
+    "global-require": 0,
+    "import/extensions": "off",
+      "import/prefer-default-export": "off",
+      "prettier/prettier": "error",
+      "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.stories.js"
+        ]
+      }
+    ]
+  }
+}

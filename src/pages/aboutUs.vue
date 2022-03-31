@@ -6,103 +6,86 @@
         <main class="content">
           <h3 class="h3 line-bottom">About Us</h3>
           <p class="paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-            odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
-            quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
-            mauris. Maecenas in magna mollis lectus lacinia mollis.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent
+            libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum
+            imperdiet. Duis sagittis ipsum. Praesent mauris. Maecenas in magna mollis lectus lacinia
+            mollis.
           </p>
           <p class="paragraph">
-            <img
+            <!--            <img
               src="../assets/img/personmike.jpg"
               alt="Mackael"
               class="img-person"
-            />
-            Maecenas ipsum metus, semper hendrerit varius mattis, hasr congue
-            sit amet tellus. Aliquam ullamcorper dui sed magna posuere ut elem
-            entum enim rutrum. Nam mi erat, porta idso ultrices nec, pellentesq
-            ue vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non
-            lectus tempor a interdumni justo ultricies. Sed luctus dui nec ni sl
-            tem pus faucibus sit amet et sem. Aenean augue sapien, sodales ac
-            bibendum ut, pellentesque id eros. Duis tristique porta aliquam.
-            Curabitur sagittis tincidunt erat, quis hendrerit nibh iaculis
-            vitae. Pellentesque ultricies nisl quis odio posuere facilisis. In
-            ut felis erat, ac laoreet orci. Sed lectus nulla, bibendum at
-            vulputate sit amet, tincidunt volutpat lorem. Maecenas in magna
-            mollis lectus lacinia mollis. Donec sit amet volutpat lorem.
-            Pellentesque ultricies nisl quis odio posuere facilisis. In ut felis
-            erat, ac laoreet orci. Aenean augue sapien, sodales ac bibendum ut,
-            pellentesque id eros.
+            />-->
+            Maecenas ipsum metus, semper hendrerit varius mattis, hasr congue sit amet tellus.
+            Aliquam ullamcorper dui sed magna posuere ut elem entum enim rutrum. Nam mi erat, porta
+            idso ultrices nec, pellentesq ue vel nunc. Cras varius fermentum iaculis. Aenean sodales
+            nibh non lectus tempor a interdumni justo ultricies. Sed luctus dui nec ni sl tem pus
+            faucibus sit amet et sem. Aenean augue sapien, sodales ac bibendum ut, pellentesque id
+            eros. Duis tristique porta aliquam. Curabitur sagittis tincidunt erat, quis hendrerit
+            nibh iaculis vitae. Pellentesque ultricies nisl quis odio posuere facilisis. In ut felis
+            erat, ac laoreet orci. Sed lectus nulla, bibendum at vulputate sit amet, tincidunt
+            volutpat lorem. Maecenas in magna mollis lectus lacinia mollis. Donec sit amet volutpat
+            lorem. Pellentesque ultricies nisl quis odio posuere facilisis. In ut felis erat, ac
+            laoreet orci. Aenean augue sapien, sodales ac bibendum ut, pellentesque id eros.
           </p>
           <p class="paragraph">
-            Maecenas ipsum metus, semper hendrerit varius mattis, congue sit
-            amet tellus. Aliquam ullamcorper dui sed magna posuere ut elementum
-            enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel
-            nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus
-            tempor a interdum justo ultricies. Sed luctus dui nec nisl tempus
-            faucibus sit amet et sem. Aenean augue sapien, sodales ac bibendum
-            ut, pellentesque id eros.
+            Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam
+            ullamcorper dui sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id
+            ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh
+            non lectus tempor a interdum justo ultricies. Sed luctus dui nec nisl tempus faucibus
+            sit amet et sem. Aenean augue sapien, sodales ac bibendum ut, pellentesque id eros.
           </p>
           <p class="paragraph">
-            Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,
-            id tristique risus ante at est. Sed pretium metus sit amet erat
-            blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum at
-            vulputate sit amet, tincidunt volutpat lorem. Maecenas in magna
-            mollis lectus lacinia mollis. Donec sit amet volutpat lorem. Duis
-            tristique porta aliquam. Curabitur sagittis tincidunt erat, quis
-            hendrerit nibh iaculis vitae.
+            Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus
+            ante at est. Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas. Sed
+            lectus nulla, bibendum at vulputate sit amet, tincidunt volutpat lorem. Maecenas in
+            magna mollis lectus lacinia mollis. Donec sit amet volutpat lorem. Duis tristique porta
+            aliquam. Curabitur sagittis tincidunt erat, quis hendrerit nibh iaculis vitae.
           </p>
           <p class="paragraph">
-            <span class="big-letter">D</span> Quisque mollis, sem id laoreet
-            pretium, lectus elit molestie urna, id tristique risus ante at est.
-            Sed pretium metus sit amet erat blandit vitae pulvinar lorem
-            egestas. Sed lectus nulla, bibendum at vulputate sit amet, tincidunt
-            volutpat lorem. Maecenas in magna mollis lectus lacinia mollis.
-            Donec sit amet volutpat lorem. Duis tristique porta aliquam.
-            Curabitur sagittis tincidunt erat, quis hendrerit nibh iaculis
-            vitae. Pellentesque ultricies nisl quis odio posuere facilisis. In
-            ut felis erat, ac laoreet orci.
+            <span class="big-letter">D</span> Quisque mollis, sem id laoreet pretium, lectus elit
+            molestie urna, id tristique risus ante at est. Sed pretium metus sit amet erat blandit
+            vitae pulvinar lorem egestas. Sed lectus nulla, bibendum at vulputate sit amet,
+            tincidunt volutpat lorem. Maecenas in magna mollis lectus lacinia mollis. Donec sit amet
+            volutpat lorem. Duis tristique porta aliquam. Curabitur sagittis tincidunt erat, quis
+            hendrerit nibh iaculis vitae. Pellentesque ultricies nisl quis odio posuere facilisis.
+            In ut felis erat, ac laoreet orci.
           </p>
           <p class="paragraph__italic">
-            <span style="font-size: 72px">"</span>Quisque mollis, sem id laoreet
-            pretium, lectus elit molestie urna, id tristique risus ante at est.
-            Sed pretium metus sit amet erat blandit vitae pulvinar lorem
-            egestas. Sed lectus nulla, bibendum at vulputate sit amet, tincidunt
-            volutpat lorem. Mae trenas in magna mollis lectus lacinia mollis.
-            Donec sit amet volutpat lorem. Du tristique porta aliquam. Curabitur
-            sagittis tincidunt erat, quis hendrerit nibh iaculis vitae.
-            Pellentesque ultric nisl quis odio posuere facilisis. In ut felis
-            erat, ac laoreet orci donec sed nulla at sit amet.
+            <span style="font-size: 72px">"</span>Quisque mollis, sem id laoreet pretium, lectus
+            elit molestie urna, id tristique risus ante at est. Sed pretium metus sit amet erat
+            blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum at vulputate sit amet,
+            tincidunt volutpat lorem. Mae trenas in magna mollis lectus lacinia mollis. Donec sit
+            amet volutpat lorem. Du tristique porta aliquam. Curabitur sagittis tincidunt erat, quis
+            hendrerit nibh iaculis vitae. Pellentesque ultric nisl quis odio posuere facilisis. In
+            ut felis erat, ac laoreet orci donec sed nulla at sit amet.
           </p>
           <div class="two-column">
             <p class="paragraph">
-              Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,
-              id tristique risus ante at est. Sed pretium metus sit amet erat
-              blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum
-              at vulputate sit amet, tincidunt volutpat lorem.
+              Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus
+              ante at est. Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas. Sed
+              lectus nulla, bibendum at vulputate sit amet, tincidunt volutpat lorem.
             </p>
             <p class="paragraph">
-              Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,
-              id tristique risus ante at est. Sed pretium metus sit amet erat
-              blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum
-              at vulputate sit amet, tincidunt volutpat lorem.
+              Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus
+              ante at est. Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas. Sed
+              lectus nulla, bibendum at vulputate sit amet, tincidunt volutpat lorem.
             </p>
           </div>
           <!-- /two-column -->
           <div class="three-column">
             <p class="paragraph">
-              Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,
-              id tristique risus ante at est. Sed pretium metus sit amet erat
-              blandit vitae pulvinar lorem egestas.
+              Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus
+              ante at est. Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas.
             </p>
             <p class="paragraph">
-              Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,
-              id tristique risus ante at est. Sed pretium metus sit amet erat
-              blandit vitae pulvinar lorem egestas.
+              Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus
+              ante at est. Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas.
             </p>
             <p class="paragraph">
-              Quisque mollis, sem id laoreet pretium, lectus elit molestie urna,
-              id tristique risus ante at est. Sed pretium metus sit amet erat
-              blandit vitae pulvinar lorem egestas.
+              Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus
+              ante at est. Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas.
             </p>
           </div>
           <!-- /three-column -->
@@ -132,9 +115,9 @@
 </template>
 
 <script>
-import MainHeader from '../assets/components/the-header/the-header';
-import FooterBlock from '../assets/components/the-footer/footer-block';
-import AsideBlock from '../assets/components/aside-block/aside-block';
+import MainHeader from '../components/the-header/the-header.vue';
+import FooterBlock from '../components/the-footer/footer-block.vue';
+import AsideBlock from '../components/aside-block/aside-block.vue';
 
 export default {
   name: 'AboutUs',
@@ -160,12 +143,13 @@ export default {
   margin-right: 22px;
   border: 1px solid $brflick;
   padding: 2px;
-  &:before {
+
+  &::before {
     position: absolute;
     content: '';
     top: 0;
     left: 0;
-    background-image: url('../assets/img/personRibbonHover.png');
+    // background-image: url('../assets/img/personRibbonHover.png');
   }
 }
 
