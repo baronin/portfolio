@@ -39,13 +39,13 @@ export default {
 
   .header {
     padding: 20px 0;
+  }
 
-    .container {
-      justify-content: space-between;
+  .container {
+    justify-content: space-between;
 
-      .top-right {
-        align-items: center;
-      }
+    .top-right {
+      align-items: center;
     }
   }
 }

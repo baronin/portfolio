@@ -24,5 +24,3 @@ export default {
   components: { AsideBlock, ArchivesContent, FooterBlock, MainHeader },
 };
 </script>
-
-<style scoped></style>

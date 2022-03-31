@@ -1,7 +1,7 @@
 <template>
-  <a href="#" class="logotype-link">
+  <router-link to="/" class="logotype-link">
     <img src="../../../assets/img/logotype.png" alt="logotype" class="logotype" />
-  </a>
+  </router-link>
 </template>
 
 <script>

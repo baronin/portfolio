@@ -25,7 +25,10 @@ export default {
   name: 'ArchivesContent',
   components: { ArchivesCategories, ArchivesMonth, LastPosts },
   props: {
-    titles: Object,
+    titles: {
+      type: Object,
+      default: () => {},
+    },
   },
 };
 </script>

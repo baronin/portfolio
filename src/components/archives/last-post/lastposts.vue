@@ -3,8 +3,8 @@
     <section class="last-posts">
       <h3 class="h3">Last 25 Posts</h3>
       <ul>
-        <li class="post-item" v-for="Posts in lastPost">
-          <a href="#" class="post-link">{{ Posts }}</a>
+        <li v-for="(post, i) in lastPost" :key="i" class="post-item">
+          <a href="#" class="post-link">{{ post }}</a>
         </li>
       </ul>
     </section>
@@ -12,8 +12,8 @@
 </template>
 <script>
 export default {
-  name: 'lastposts',
-  data: function () {
+  name: 'LastPosts',
+  data() {
     return {
       lastPost: [
         'Lorem ipsum sem id lectus seid dolor sit amet elit',

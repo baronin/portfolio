@@ -7,7 +7,12 @@
 <script>
 export default {
   name: 'TitleItem',
-  props: ['archive'],
+  props: {
+    archive: {
+      type: Object,
+      default: () => {},
+    },
+  },
 };
 </script>
 <style scoped></style>

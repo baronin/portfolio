@@ -28,6 +28,7 @@ export default {
   components: { Categories, TwitterWidget },
   methods: {
     show(el) {
+      // eslint-disable-next-line no-console
       console.log(el);
     },
   },
