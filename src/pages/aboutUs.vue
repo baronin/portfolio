@@ -53,7 +53,7 @@
             In ut felis erat, ac laoreet orci.
           </p>
           <p class="paragraph__italic">
-            <span style="font-size: 72px;">"</span>Quisque mollis, sem id laoreet pretium, lectus
+            <span style="font-size: 72px">"</span>Quisque mollis, sem id laoreet pretium, lectus
             elit molestie urna, id tristique risus ante at est. Sed pretium metus sit amet erat
             blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum at vulputate sit amet,
             tincidunt volutpat lorem. Mae trenas in magna mollis lectus lacinia mollis. Donec sit
